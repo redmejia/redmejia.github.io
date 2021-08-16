@@ -1,0 +1,19 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+.header {
+  height: 50vh;
+  padding: 3rem;
+  position: relative;
+  background: #020024;
+  background: linear-gradient(135deg, rgba(2, 0, 36, 0.762342) 15%, #106079 60%, #001aff 100%); }

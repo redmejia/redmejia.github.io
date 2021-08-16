@@ -1,0 +1,15 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "fullstack porfolio ",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Reynaldo Mejia",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.1",
+    "sass": "^1.37.5"
+  }
+}
