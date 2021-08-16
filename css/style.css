@@ -17,3 +17,28 @@ body {
   position: relative;
   background: #020024;
   background: linear-gradient(135deg, rgba(2, 0, 36, 0.762342) 15%, #106079 60%, #001aff 100%); }
+  .header__avatar {
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.9); }
+  .header__text-box {
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }
+
+.heading-main {
+  font-family: monospace;
+  color: white; }
+  .heading-main--primary {
+    font-size: 3rem;
+    letter-spacing: 1.1rem;
+    text-align: center;
+    text-shadow: 0.5rem 1rem 2rem black; }
+  .heading-main--second {
+    display: block;
+    font-size: 2.5rem;
+    letter-spacing: 1.1rem;
+    text-shadow: 0.5rem 1rem 2rem black; }

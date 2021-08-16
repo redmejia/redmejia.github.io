@@ -10,4 +10,20 @@
 		rgba(16, 96, 121, 1) 60%,
 		rgba(0, 26, 255, 1) 100%
 	);
+
+	&__avatar{
+		width: 25rem;
+		height: 25rem;
+		border-radius: 50%;
+		box-shadow: 0 1rem 2rem rgba(#000, 0.9);
+		
+	}
+
+	&__text-box{
+		position: relative;
+		top: 40%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+	}
 }

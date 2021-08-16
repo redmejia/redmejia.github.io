@@ -1,0 +1,19 @@
+.heading-main {
+	font-family: monospace;
+	color:$color-white;
+
+	&--primary {
+		font-size: 3rem;
+		letter-spacing: 1.1rem;
+		text-align: center;
+		text-shadow: .5rem 1rem 2rem rgba($color-black, 2.5);
+	}
+
+	&--second{
+		display: block;
+		font-size: 2.5rem;
+		letter-spacing: 1.1rem;
+		text-shadow: .5rem 1rem 2rem rgba($color-black, 2.5);
+	}
+	
+}
