@@ -12,12 +12,14 @@ body {
   box-sizing: border-box; }
 
 .header {
-  height: 50vh;
-  padding: 3rem;
-  position: relative;
+  height: 80vh;
   background: #020024;
   background: linear-gradient(135deg, rgba(2, 0, 36, 0.762342) 15%, #106079 60%, #001aff 100%); }
   .header__avatar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 25rem;
     height: 25rem;
     border-radius: 50%;
@@ -26,19 +28,21 @@ body {
     position: relative;
     top: 40%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center; }
+    transform: translate(-50%, -50%); }
 
 .heading-main {
   font-family: monospace;
-  color: white; }
+  color: #ffff;
+  padding-top: 35rem;
+  margin-left: 25rem; }
   .heading-main--primary {
     font-size: 3rem;
     letter-spacing: 1.1rem;
-    text-align: center;
     text-shadow: 0.5rem 1rem 2rem black; }
   .heading-main--second {
     display: block;
     font-size: 2.5rem;
     letter-spacing: 1.1rem;
     text-shadow: 0.5rem 1rem 2rem black; }
+  .heading-main--me {
+    color: #e05854; }

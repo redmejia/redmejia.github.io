@@ -1,19 +1,25 @@
 .heading-main {
 	font-family: monospace;
-	color:$color-white;
+	color: $color-white;
+	padding-top : 35rem;
+	margin-left: 25rem;
 
 	&--primary {
 		font-size: 3rem;
 		letter-spacing: 1.1rem;
-		text-align: center;
-		text-shadow: .5rem 1rem 2rem rgba($color-black, 2.5);
+		text-shadow: 0.5rem 1rem 2rem rgba($color-black, 2.5);
 	}
 
-	&--second{
+
+	&--second {
+	
 		display: block;
 		font-size: 2.5rem;
 		letter-spacing: 1.1rem;
-		text-shadow: .5rem 1rem 2rem rgba($color-black, 2.5);
+		text-shadow: 0.5rem 1rem 2rem rgba($color-black, 2.5);
 	}
-	
+
+	&--me{
+		color: $color-name;
+	}
 }
