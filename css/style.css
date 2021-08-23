@@ -28,19 +28,27 @@ body {
     position: relative;
     top: 40%;
     left: 50%;
-    transform: translate(-50%, -50%); }
+    transform: translate(-50%, -50%);
+    align-items: center;
+    text-align: center; }
+
+.contact {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: transparent;
+  padding-top: 1rem;
+  padding-right: 3rem; }
 
 .heading-main {
   font-family: monospace;
   color: #ffff;
-  padding-top: 35rem;
-  margin-left: 25rem; }
+  padding-top: 35rem; }
   .heading-main--primary {
     font-size: 3rem;
     letter-spacing: 1.1rem;
     text-shadow: 0.5rem 1rem 2rem black; }
   .heading-main--second {
-    display: block;
     font-size: 2.5rem;
     letter-spacing: 1.1rem;
     text-shadow: 0.5rem 1rem 2rem black; }
