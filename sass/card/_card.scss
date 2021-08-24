@@ -1,19 +1,46 @@
 .card-box {
+    height: 100vh;
+    padding: 20rem;
     position: relative;
+
+    
+    
+    -webkit-clip-path: polygon(0% 15%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 15%, 100% 0, 100% 100%, 0% 100%);
+    // position: relative;
+
+
+
+
+
+    background-size: cover;
+    /*fit the size of the box*/
+    background-position: top;
+    /*stay at top of the container*/
+    position: relative;
+
+    background-image: url(../../img/color.jpg);
+
+
+
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    letter-spacing: normal;
+    margin-top: 25rem;
+    
+    font-family: monospace;
+    color: white;
 
-    // align-items: center;
-    // text-align: center;
+
+
 
     &__project {
         height: 50rem;
         width: 100%;
-        background-color: #e9f5f527;
-        box-shadow: 0 1rem 2rem rgba(#000, 0.4);
-
-       
+        background-color: #e9f5f527; // card background
+        // background-color: yellowgreen;
+        box-shadow: 0 .1rem 1rem rgba(rgba(241, 237, 237, 0.315), 0.4);
 
         &--pic1 {
             height: 23rem;
@@ -30,11 +57,12 @@
         &--pic3 {
             height: 23rem;
             background-size: cover;
-            background-image: url(../../img/me.jpg);
+            background-image: url(../../img/code_.jpg);
         }
         &--title {
             padding-left: 1rem;
             font-size: 4rem;
+            
         }
         &--description {
             padding-left: 1rem;

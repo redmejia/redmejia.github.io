@@ -20,6 +20,9 @@
 	}
 
 	&--me{
-		color: $color-name;
+		color: #00FFE9;
+		// text-decoration: underline;
+		font-size: 3rem;
+		font-weight: bold;
 	}
 }
