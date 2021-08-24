@@ -89,6 +89,35 @@ body {
     align-items: center;
     text-align: center; }
 
+.card-box {
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  .card-box__project {
+    height: 50rem;
+    width: 100%;
+    background-color: #e9f5f527;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4); }
+    .card-box__project--pic1 {
+      height: 23rem;
+      background-size: cover;
+      background-image: url(../../img/fiber.jpg); }
+    .card-box__project--pic2 {
+      height: 23rem;
+      background-size: cover;
+      background-image: url(../../img/points.jpg); }
+    .card-box__project--pic3 {
+      height: 23rem;
+      background-size: cover;
+      background-image: url(../../img/me.jpg); }
+    .card-box__project--title {
+      padding-left: 1rem;
+      font-size: 4rem; }
+    .card-box__project--description {
+      padding-left: 1rem;
+      font-size: 2rem; }
+
 .heading-main {
   font-family: monospace;
   color: #ffff;

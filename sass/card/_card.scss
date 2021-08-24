@@ -1,0 +1,44 @@
+.card-box {
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    // align-items: center;
+    // text-align: center;
+
+    &__project {
+        height: 50rem;
+        width: 100%;
+        background-color: #e9f5f527;
+        box-shadow: 0 1rem 2rem rgba(#000, 0.4);
+
+       
+
+        &--pic1 {
+            height: 23rem;
+            background-size: cover;
+            background-image: url(../../img/fiber.jpg);
+        }
+
+        &--pic2 {
+            height: 23rem;
+            background-size: cover;
+            background-image: url(../../img/points.jpg);
+        }
+
+        &--pic3 {
+            height: 23rem;
+            background-size: cover;
+            background-image: url(../../img/me.jpg);
+        }
+        &--title {
+            padding-left: 1rem;
+            font-size: 4rem;
+        }
+        &--description {
+            padding-left: 1rem;
+            font-size: 2rem;
+        }
+    }
+}
