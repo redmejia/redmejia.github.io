@@ -40,6 +40,21 @@ body {
   padding-top: 1rem;
   padding-right: 3rem; }
 
+.about-box {
+  margin-top: 20rem;
+  position: relative;
+  top: 40%;
+  left: 50%;
+  height: 30rem;
+  width: 55rem;
+  transform: translate(-50%, -50%); }
+  .about-box__text {
+    padding-top: 1.1rem;
+    position: relative;
+    font-size: 2rem;
+    align-items: center;
+    text-align: center; }
+
 .heading-main {
   font-family: monospace;
   color: #ffff;
