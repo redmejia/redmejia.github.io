@@ -112,9 +112,10 @@ body {
   font-family: monospace;
   color: white; }
   .card-box__project {
+    transition: transform 0.3s;
     height: 50rem;
     width: 100%;
-    background-color: #e9f5f527;
+    background-color: #e9f5f542;
     box-shadow: 0 0.1rem 1rem rgba(241, 237, 237, 0.4); }
     .card-box__project--pic1 {
       height: 23rem;
@@ -134,6 +135,8 @@ body {
     .card-box__project--description {
       padding-left: 1rem;
       font-size: 2rem; }
+    .card-box__project:hover {
+      transform: translateY(-1.5rem) scale(1.03); }
 
 .heading-main {
   font-family: monospace;
