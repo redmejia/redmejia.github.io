@@ -9,12 +9,19 @@ html {
   font-size: 62.5%; }
 
 body {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  background-color: #74aef183; }
 
 .header {
   height: 80vh;
-  background: #020024;
-  background: linear-gradient(135deg, rgba(2, 0, 36, 0.762342) 15%, #106079 60%, #001aff 100%); }
+  padding: 3rem;
+  position: relative;
+  background-image: url(../../img/color.jpg);
+  background-size: cover;
+  /*fit the size of the box*/
+  background-position: top;
+  /*stay at top of the container*/
+  position: relative; }
   .header__avatar {
     position: absolute;
     top: 50%;
@@ -31,6 +38,32 @@ body {
     transform: translate(-50%, -50%);
     align-items: center;
     text-align: center; }
+
+.row {
+  max-width: 114rem;
+  margin: 0 auto; }
+  .row:not(:last-child) {
+    margin-bottom: 8rem; }
+  .row::after {
+    content: "";
+    display: table;
+    clear: both; }
+  .row [class^="col-"] {
+    float: left; }
+    .row [class^="col-"]:not(:last-child) {
+      margin-right: 6rem; }
+  .row .col-1-of-2 {
+    width: calc((100% - 6rem)/ 2); }
+  .row .col-1-of-3 {
+    width: calc((100% - 2 *6rem)/3); }
+  .row .col-2-of-3 {
+    width: calc( 2 *((100% - 2 *6rem)/3) + 6rem); }
+  .row .col-1-of-4 {
+    width: calc((100% - 3 *6rem)/4); }
+  .row .col-2-of-4 {
+    width: calc( 2 *  ((100% - 3 *6rem)/4) + 6rem); }
+  .row .col-3-of-4 {
+    width: calc( 3 *  ((100% - 3 *6rem)/4) + 2 * 6rem); }
 
 .contact {
   position: absolute;
@@ -52,6 +85,7 @@ body {
     padding-top: 1.1rem;
     position: relative;
     font-size: 2rem;
+    color: #0B3746;
     align-items: center;
     text-align: center; }
 
