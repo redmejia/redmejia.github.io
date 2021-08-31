@@ -11,18 +11,22 @@
 	// 	rgba(16, 96, 121, 1) 60%,
 	// 	rgba(0, 26, 255, 1) 100%
 	// );
+	// filter: blur(0.1rem);
+	// overflow: hidden;
 
 	// -- second option
-	// background: rgba(5, 5, 231, 0.116);
+	// background: rgba(5, 73, 104, 0);
 	// background: linear-gradient(
 	// 	to left bottom,
-	// 	rgba(57, 55, 105, 0.466) 15%,
-	// 	rgba(32, 48, 154, 0.63) 60%,
-	// ), url(../../img/color.jpg);
+	// 	rgba(36, 129, 206, 0.89) 15%,
+	// 	rgba(10, 132, 202, 1) 60%,
+
+	// ), url(../../img/code_2.jpg);
 
 
-	background-image: url(../../img/color.jpg);
-
+	// background-image: url(../../img/color.jpg);
+	background-color: #082f47;
+	// filter: blur(3px);
 
 	// background-blend-mode: screen;
 	// -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
@@ -30,12 +34,11 @@
 
 	// filter: blur(1px);
 
-
 	background-size: cover;
 	/*fit the size of the box*/
 	background-position: top;
 	/*stay at top of the container*/
-	position: relative;
+	// position: relative;
 
 	&__avatar {
 		position: absolute;

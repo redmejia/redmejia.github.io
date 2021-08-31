@@ -10,18 +10,17 @@ html {
 
 body {
   box-sizing: border-box;
-  background-color: #74aef183; }
+  background-color: #072e4738; }
 
 .header {
   height: 90vh;
   padding: 3rem;
   position: relative;
-  background-image: url(../../img/color.jpg);
+  background-color: #082f47;
   background-size: cover;
   /*fit the size of the box*/
   background-position: top;
-  /*stay at top of the container*/
-  position: relative; }
+  /*stay at top of the container*/ }
   .header__avatar {
     position: absolute;
     top: 50%;
@@ -79,57 +78,48 @@ body {
   top: 40%;
   left: 50%;
   height: 30rem;
-  width: 55rem;
+  max-width: 114rem;
   transform: translate(-50%, -50%); }
   .about-box__text {
     font-family: monospace;
     padding-top: 1.1rem;
     position: relative;
     font-size: 2rem;
-    color: #0B3746;
+    color: #123244;
     letter-spacing: normal; }
 
 .card-box {
-  height: 100vh;
-  padding: 20rem;
   position: relative;
-  background-size: cover;
-  /*fit the size of the box*/
-  background-position: top;
-  /*stay at top of the container*/
-  position: relative;
-  background-image: url(../../img/color.jpg);
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   letter-spacing: normal;
-  margin-top: 25rem;
+  margin-top: 50rem;
   font-family: monospace;
-  color: white; }
+  color: #123244; }
   .card-box__project {
     transition: transform 0.3s;
-    height: 50rem;
+    height: 60rem;
     width: 100%;
-    background-color: #e9f5f542;
-    box-shadow: 0 0.1rem 1rem rgba(241, 237, 237, 0.4); }
-    .card-box__project--pic1 {
-      height: 23rem;
+    box-shadow: 0 0.1rem 1rem rgba(15, 13, 13, 0.9); }
+    .card-box__project--pic {
+      height: 60rem;
       background-size: cover;
-      background-image: url(../../img/fiber.jpg); }
-    .card-box__project--pic2 {
-      height: 23rem;
-      background-size: cover;
-      background-image: url(../../img/points.jpg); }
-    .card-box__project--pic3 {
-      height: 23rem;
-      background-size: cover;
-      background-image: url(../../img/code_.jpg); }
+      width: 100%;
+      align-items: center;
+      background-size: cover; }
     .card-box__project--title {
-      padding-left: 1rem;
-      font-size: 4rem; }
+      padding-top: 3.5rem;
+      font-size: 4rem;
+      color: #123244; }
     .card-box__project--description {
-      padding-left: 1rem;
+      padding-top: 2.5rem;
       font-size: 2rem; }
+    .card-box__project--tech {
+      padding-top: 4rem;
+      font-size: 3rem; }
+    .card-box__project--tech-tools {
+      padding-top: 2rem; }
     .card-box__project:hover {
       transform: translateY(-1.5rem) scale(1.03); }
 
