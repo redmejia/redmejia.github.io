@@ -1,10 +1,14 @@
-.card-box {
+// return  to .card-box
+.card-boxing {
     position: relative;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     letter-spacing: normal;
-    margin-top: 50rem;
+    margin-top: 70rem;
+    // margin-bottom: 80rem;
+
+    background-color: brown;
 
     font-family: monospace;
     color: #123244;
@@ -12,11 +16,12 @@
     // for regular cards
     &__project {
         transition: transform 0.3s; // don't forget everytime you add efect
-        height: 60rem;
+        // height: 60rem;
         width: 100%;
         // background-color: #e9f5f542; // card background
         // background-color: yellowgreen;
         box-shadow: 0 0.1rem 1rem rgba(rgba(15, 13, 13, 0.315), 0.9);
+        // position: relative;
         &--pic {
             height: 60rem;
             background-size: cover;
@@ -40,7 +45,59 @@
             padding-top: 4rem;
             font-size: 3rem;
         }
-        &--tech-tools{
+        &--tech-tools {
+            padding-top: 2rem;
+            // width: 80px;
+        }
+
+        &:hover {
+            transform: translateY(-1.5rem) scale(1.03);
+        }
+    }
+}
+
+.card-box {
+    position: relative;
+
+    letter-spacing: normal;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+
+    font-family: monospace;
+
+    
+    &__project {
+        transition: transform 0.3s; // don't forget everytime you add efect
+        height: 60rem;
+        width: 100%;
+        // background-color: #e9f5f542; // card background
+        // background-color: yellowgreen;
+        box-shadow: 0 0.1rem 1rem rgba(rgba(15, 13, 13, 0.315), 0.9);
+        position: relative;
+        &--pic {
+            height: 60rem;
+            background-size: cover;
+            width: 100%;
+            align-items: center;
+            background-size: cover;
+        }
+        &--title {
+            padding-top: 3.5rem;
+            font-size: 4rem;
+            color: #123244;
+        }
+        &--description {
+            padding-top: 2.5rem;
+            // padding-left: 1rem;
+            font-size: 2rem;
+            // color: #123244;
+        }
+
+        &--tech {
+            padding-top: 4rem;
+            font-size: 3rem;
+        }
+        &--tech-tools {
             padding-top: 2rem;
             // width: 80px;
         }

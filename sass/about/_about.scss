@@ -1,27 +1,37 @@
+// .about-box {
+
+// 	margin-top: 20rem;
+// 	position: relative;
+// 	top: 40%;
+// 	left: 50%;
+// 	height: 30rem;
+// 	width: 55rem;
+// 	// background-color: red; // see about position.
+// 	transform: translate(-50%, -50%);
+
+// 	&__text {
+// 		font-family: monospace;
+// 		padding-top: 1.1rem;
+// 		position: relative;
+// 		font-size: 2rem;
+// 		// color: $about-color-text;
+// 		color: white;
+// 		// align-items: center;
+// 		// text-align: center;
+// 		letter-spacing:normal;
+// 	}
+// }
 
 .about-box {
-	
-	margin-top: 20rem;
-	position: relative;
-	top: 40%;
-	left: 50%;
-	height: 30rem;
-	// width: 69%;
-	max-width: $grid-with;
-	// background-color: red; // see about position.
-	transform: translate(-50%, -50%);
+	margin-top: 10rem;
+	margin-bottom: 10rem;
+
+	// background-color: darkred;
 
 	&__text {
+		max-width: $grid-with;
+		margin: 0 auto;
 		font-family: monospace;
-		padding-top: 1.1rem;
-		// padding-left: 13rem;
-		// padding-right: 13rem;
-		position: relative;
 		font-size: 2rem;
-		// color: $about-color-text;
-		color:#123244;
-		// align-items: center;
-		// text-align: center;
-		letter-spacing:normal;
 	}
 }

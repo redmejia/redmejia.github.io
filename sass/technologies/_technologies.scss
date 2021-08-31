@@ -1,0 +1,20 @@
+// .tech-circle
+.tech-box{
+	background-color: #072e473d;
+	width: 22rem;
+	height: 22rem;
+	border-radius: 10%;
+	position: relative;
+	transition: transform .3s; // don't forget everytime you add efect 
+
+
+
+	align-items: center;
+	margin-bottom: 1rem;
+	box-shadow: 0 2.70rem 9rem rgba($color-black, 0.50);
+
+	&:hover{
+		transform: translateY(-1.5rem) scale(1.03);
+	}
+
+}
