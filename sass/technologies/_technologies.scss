@@ -1,20 +1,36 @@
 // .tech-circle
-.tech-box{
-	background-color: #072e473d;
-	width: 22rem;
-	height: 22rem;
-	border-radius: 10%;
-	position: relative;
-	transition: transform .3s; // don't forget everytime you add efect 
-
-
-
-	align-items: center;
-	margin-bottom: 1rem;
-	box-shadow: 0 2.70rem 9rem rgba($color-black, 0.50);
-
-	&:hover{
-		transform: translateY(-1.5rem) scale(1.03);
+.tech-box {
+	max-width: $grid-with;
+	margin: 0 auto;
+	
+	// title box position
+	&__title{
+		margin-top: 1.6rem;
+		margin-bottom: 1.6rem;
 	}
+	
+	&__pic {
+		display: inline-block;
+		background-color: #072e473d;
+		width: 5rem;
+		height: 5rem;
+		border-radius: 10%;
+		position: relative;
+		transition: transform 0.3s; // don't forget everytime you add efect
 
+		margin-left: 2rem;
+		// background-color: red;
+
+		align-items: center;
+		margin-bottom: 1rem;
+		box-shadow: 0 2.7rem 9rem rgba($color-black, 0.5);
+		&:hover {
+			transform: translateY(-1.5rem) scale(1.03);
+		}
+	}
 }
+
+// .technology{
+// 	margin-left: 150px;
+// 	margin-right: 150px;
+// }

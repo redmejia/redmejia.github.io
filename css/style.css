@@ -136,7 +136,6 @@ body {
       background-size: cover; }
     .card-box__project--title {
       padding-top: 3.5rem;
-      font-size: 4rem;
       color: #123244; }
     .card-box__project--description {
       padding-top: 2.5rem;
@@ -150,21 +149,30 @@ body {
       transform: translateY(-1.5rem) scale(1.03); }
 
 .tech-box {
-  background-color: #072e473d;
-  width: 22rem;
-  height: 22rem;
-  border-radius: 10%;
-  position: relative;
-  transition: transform .3s;
-  align-items: center;
-  margin-bottom: 1rem;
-  box-shadow: 0 2.7rem 9rem rgba(0, 0, 0, 0.5); }
-  .tech-box:hover {
-    transform: translateY(-1.5rem) scale(1.03); }
+  max-width: 114rem;
+  margin: 0 auto; }
+  .tech-box__title {
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem; }
+  .tech-box__pic {
+    display: inline-block;
+    background-color: #072e473d;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 10%;
+    position: relative;
+    transition: transform 0.3s;
+    margin-left: 2rem;
+    align-items: center;
+    margin-bottom: 1rem;
+    box-shadow: 0 2.7rem 9rem rgba(0, 0, 0, 0.5); }
+    .tech-box__pic:hover {
+      transform: translateY(-1.5rem) scale(1.03); }
 
 .footer {
   background-color: #082f47;
-  height: 50vh; }
+  height: 60vh;
+  color: red; }
 
 .heading-main {
   font-family: monospace;
@@ -182,3 +190,15 @@ body {
     color: #00FFE9;
     font-size: 3rem;
     font-weight: bold; }
+
+.titles {
+  font-size: 4rem;
+  color: #123244;
+  font-weight: 800;
+  font-family: monospace; }
+
+.sub-titles {
+  font-size: 2rem;
+  color: #123244;
+  font-weight: 800;
+  font-family: monospace; }

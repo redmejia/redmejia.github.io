@@ -29,9 +29,13 @@
 	// background-color: darkred;
 
 	&__text {
+
 		max-width: $grid-with;
 		margin: 0 auto;
 		font-family: monospace;
 		font-size: 2rem;
+
+		// align-items: center;
+		// text-align: center;
 	}
 }
