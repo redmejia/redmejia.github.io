@@ -156,7 +156,7 @@ body {
     margin-bottom: 1.6rem; }
   .tech-box__pic {
     display: inline-block;
-    background-color: #072e473d;
+    background-color: #072e4717;
     width: 5rem;
     height: 5rem;
     border-radius: 10%;
@@ -164,18 +164,19 @@ body {
     transition: transform 0.3s;
     margin-left: 2rem;
     align-items: center;
-    margin-bottom: 1rem;
-    box-shadow: 0 0.1rem 5rem rgba(70, 162, 216, 0.9); }
+    margin-bottom: 1rem; }
     .tech-box__pic:hover {
       transform: translateY(-1.5rem) scale(1.03); }
 
 .footer {
   background-color: #082f47;
-  height: 30vh;
-  color: red; }
+  height: 20vh;
+  padding-top: 5rem; }
   .footer__contact {
     margin: 0 auto;
-    max-width: 114rem; }
+    max-width: 114rem;
+    text-align: center;
+    align-items: center; }
 
 .heading-main {
   font-family: monospace;

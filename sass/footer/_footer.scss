@@ -2,7 +2,7 @@
 	background-color: #082f47;
 	// height: 100vh;
 
-	height: 30vh;
+	height: 20vh;
 	// width: 100%;
 
 	// -webkit-clip-path: polygon(0 17%, 100% 0, 100% 100%, 0% 100%);
@@ -12,10 +12,12 @@
 	// /*fit the size of the box*/
 	// background-position: top;
 
-	color: red;
-
+	
+	padding-top: 5rem;
 	&__contact {
 		margin: 0 auto;
 		max-width: $grid-with;
+		text-align: center;
+		align-items: center;
 	}
 }
