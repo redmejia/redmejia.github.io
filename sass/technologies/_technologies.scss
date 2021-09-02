@@ -23,7 +23,8 @@
 
 		align-items: center;
 		margin-bottom: 1rem;
-		box-shadow: 0 2.7rem 9rem rgba($color-black, 0.5);
+		box-shadow: 0 .1rem 5rem rgba(#46a2d8, .9);
+		
 		&:hover {
 			transform: translateY(-1.5rem) scale(1.03);
 		}

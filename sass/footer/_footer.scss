@@ -1,6 +1,9 @@
 .footer {
 	background-color: #082f47;
-	height: 60vh;
+	// height: 100vh;
+
+	height: 30vh;
+	// width: 100%;
 
 	// -webkit-clip-path: polygon(0 17%, 100% 0, 100% 100%, 0% 100%);
 	// clip-path: polygon(0 17%, 100% 0, 100% 100%, 0% 100%);
@@ -10,4 +13,9 @@
 	// background-position: top;
 
 	color: red;
+
+	&__contact {
+		margin: 0 auto;
+		max-width: $grid-with;
+	}
 }

@@ -165,14 +165,17 @@ body {
     margin-left: 2rem;
     align-items: center;
     margin-bottom: 1rem;
-    box-shadow: 0 2.7rem 9rem rgba(0, 0, 0, 0.5); }
+    box-shadow: 0 0.1rem 5rem rgba(70, 162, 216, 0.9); }
     .tech-box__pic:hover {
       transform: translateY(-1.5rem) scale(1.03); }
 
 .footer {
   background-color: #082f47;
-  height: 60vh;
+  height: 30vh;
   color: red; }
+  .footer__contact {
+    margin: 0 auto;
+    max-width: 114rem; }
 
 .heading-main {
   font-family: monospace;
@@ -193,7 +196,7 @@ body {
 
 .titles {
   font-size: 4rem;
-  color: #123244;
+  color: #46a2d8;
   font-weight: 800;
   font-family: monospace; }
 
