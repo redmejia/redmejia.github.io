@@ -9,8 +9,7 @@ html {
   font-size: 62.5%; }
 
 body {
-  box-sizing: border-box;
-  background-color: #072e472a; }
+  box-sizing: border-box; }
 
 .header {
   height: 100vh;
@@ -77,41 +76,6 @@ body {
     font-family: monospace;
     font-size: 2rem; }
 
-.card-boxing {
-  position: relative;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  letter-spacing: normal;
-  margin-top: 70rem;
-  background-color: brown;
-  font-family: monospace;
-  color: #123244; }
-  .card-boxing__project {
-    transition: transform 0.3s;
-    width: 100%;
-    box-shadow: 0 0.1rem 1rem rgba(15, 13, 13, 0.9); }
-    .card-boxing__project--pic {
-      height: 60rem;
-      background-size: cover;
-      width: 100%;
-      align-items: center;
-      background-size: cover; }
-    .card-boxing__project--title {
-      padding-top: 3.5rem;
-      font-size: 4rem;
-      color: #123244; }
-    .card-boxing__project--description {
-      padding-top: 2.5rem;
-      font-size: 2rem; }
-    .card-boxing__project--tech {
-      padding-top: 4rem;
-      font-size: 3rem; }
-    .card-boxing__project--tech-tools {
-      padding-top: 2rem; }
-    .card-boxing__project:hover {
-      transform: translateY(-1.5rem) scale(1.03); }
-
 .card-box {
   position: relative;
   letter-spacing: normal;
@@ -131,8 +95,7 @@ body {
       align-items: center;
       background-size: cover; }
     .card-box__project--title {
-      padding-top: 3.5rem;
-      color: #123244; }
+      padding-top: 3.5rem; }
     .card-box__project--description {
       padding-top: 2.5rem;
       font-size: 2rem; }
@@ -187,7 +150,7 @@ body {
     letter-spacing: 1.1rem;
     text-shadow: 0.5rem 1rem 2rem black; }
   .heading-main--me {
-    color: #00FFE9;
+    color: #46a2d8;
     font-size: 3rem;
     font-weight: bold; }
 
@@ -199,6 +162,12 @@ body {
 
 .sub-titles {
   font-size: 2rem;
-  color: #123244;
+  color: #082f47;
   font-weight: 800;
+  font-family: monospace; }
+
+.text-paragraph {
+  font-size: 1.9rem;
+  color: #123244;
+  font-weight: 500;
   font-family: monospace; }

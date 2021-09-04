@@ -1,7 +1,7 @@
 .heading-main {
 	font-family: monospace;
 	color: $color-white;
-	padding-top : 35rem;
+	padding-top: 35rem;
 	// margin-left: 25rem;
 
 	&--primary {
@@ -10,17 +10,15 @@
 		text-shadow: 0.5rem 1rem 2rem rgba($color-black, 2.5);
 	}
 
-
 	&--second {
-	
 		// display: block;
 		font-size: 2.5rem;
 		letter-spacing: 1.1rem;
 		text-shadow: 0.5rem 1rem 2rem rgba($color-black, 2.5);
 	}
 
-	&--me{
-		color: #00FFE9;
+	&--me {
+		color: $primary-color-1;
 		// text-decoration: underline;
 		font-size: 3rem;
 		font-weight: bold;
@@ -28,21 +26,25 @@
 }
 
 .titles {
-	// padding-top: 2rem;
 	font-size: 4rem;
-	color: #46a2d8;
+	color: $primary-color-1;
 	font-weight: 800;
-	
+
 	font-family: monospace;
-
-
 }
-
 
 .sub-titles {
 	font-size: 2rem;
-	color: #123244;
+	color: $primary-color;
 	font-weight: 800;
-	
+
+	font-family: monospace;
+}
+
+.text-paragraph {
+	font-size: 1.9rem;
+	color: $primary-color-2;
+	font-weight: 500;
+
 	font-family: monospace;
 }
