@@ -16,11 +16,7 @@ body {
   height: 100vh;
   padding: 3rem;
   position: relative;
-  background-color: #082f47;
-  background-size: cover;
-  /*fit the size of the box*/
-  background-position: top;
-  /*stay at top of the container*/ }
+  background-color: #082f47; }
   .header__avatar {
     position: absolute;
     top: 50%;
