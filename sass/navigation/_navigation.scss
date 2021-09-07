@@ -1,0 +1,32 @@
+.navigation {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+
+	&--list {
+		display: inline-block;
+		// color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		// float: left;
+		
+		&__link {
+			display: inline-block;
+			color: $primary-color-2;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-family: monospace;
+			font-size: 1.5rem;
+			font-weight:900;
+
+			
+		}
+
+		&:hover{
+			background-color: $color-black;	
+		}
+	}
+}
