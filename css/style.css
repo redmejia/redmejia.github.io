@@ -62,16 +62,15 @@ body {
 .navigation {
   list-style-type: none;
   margin: 0;
-  padding: 0;
-  overflow: hidden; }
+  padding: 0; }
   .navigation--list {
     display: inline-block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none; }
     .navigation--list__link {
-      display: inline-block;
       color: #123244;
+      display: inline-block;
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
@@ -136,6 +135,7 @@ body {
     margin-top: 1.6rem;
     margin-bottom: 1.6rem; }
   .tech-box__pic {
+    margin-top: 1.5rem;
     display: inline-block;
     background-color: #072e4717;
     width: 5rem;
@@ -151,8 +151,7 @@ body {
 
 .footer {
   background-color: #082f47;
-  height: 20vh;
-  padding-top: 5rem; }
+  height: 20vh; }
   .footer__contact {
     margin: 0 auto;
     max-width: 114rem;
