@@ -5,14 +5,14 @@
 	// margin-left: 25rem;
 
 	&--primary {
-		font-size: 3rem;
+		font-size: $header-font-4;
 		letter-spacing: 1.1rem;
 		text-shadow: 0.5rem 1rem 2rem rgba($color-black, 2.5);
 	}
 
 	&--second {
 		// display: block;
-		font-size: 2.5rem;
+		font-size: $header-font-4;
 		letter-spacing: 1.1rem;
 		text-shadow: 0.5rem 1rem 2rem rgba($color-black, 2.5);
 	}
@@ -20,7 +20,7 @@
 	&--me {
 		color: $primary-color-1;
 		// text-decoration: underline;
-		font-size: 3rem;
+		font-size: $header-font-4;
 		font-weight: bold;
 	}
 }
