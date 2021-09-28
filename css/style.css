@@ -108,6 +108,14 @@ body {
     margin: 0 auto;
     font-family: monospace;
     font-size: 2rem; }
+    @media (max-width: 37.5em) {
+      .about-box__text {
+        padding-right: 3rem;
+        padding-left: 3rem; } }
+    @media (max-width: 75em) {
+      .about-box__text {
+        padding-right: 3rem;
+        padding-left: 3rem; } }
 
 .card-box {
   position: relative;
@@ -146,6 +154,12 @@ body {
   .tech-box__title {
     margin-top: 1.6rem;
     margin-bottom: 1.6rem; }
+    @media (max-width: 75em) {
+      .tech-box__title {
+        padding-left: 3rem; } }
+    @media (max-width: 37.5em) {
+      .tech-box__title {
+        padding-left: 3rem; } }
   .tech-box__pic {
     margin-top: 1.5rem;
     display: inline-block;
@@ -208,11 +222,21 @@ body {
         font-size: 3rem; } }
 
 .titles {
-  font-size: 4rem;
+  font-size: 6rem;
   color: #46a2d8;
   font-weight: 800;
   padding-top: 1.5rem;
   font-family: monospace; }
+  @media (max-width: 75em) {
+    .titles {
+      color: #46a2d8;
+      font-weight: 900;
+      font-size: 3rem; } }
+  @media (max-width: 37.5em) {
+    .titles {
+      color: #46a2d8;
+      font-size: 2.5rem;
+      font-weight: 900; } }
 
 .strong-med-title {
   font-size: 6rem;
@@ -231,3 +255,12 @@ body {
   color: #123244;
   font-weight: 500;
   font-family: monospace; }
+  @media (max-width: 75em) {
+    .text-paragraph {
+      color: #123244;
+      font-size: 1.9rem; } }
+  @media (max-width: 37.5em) {
+    .text-paragraph {
+      color: #123244;
+      font-size: 1.6rem;
+      font-weight: 600; } }

@@ -29,11 +29,21 @@
 	// background-color: darkred;
 
 	&__text {
-
 		max-width: $grid-with;
 		margin: 0 auto;
 		font-family: monospace;
 		font-size: 2rem;
+		@include respond(phone) {
+			padding-right: 3rem;
+			padding-left: 3rem;
+		}
+
+		@include respond(tab-land){
+			padding-right: 3rem;
+			padding-left: 3rem;
+
+		}
+
 
 		// align-items: center;
 		// text-align: center;

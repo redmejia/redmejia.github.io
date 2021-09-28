@@ -7,6 +7,15 @@
 	&__title {
 		margin-top: 1.6rem;
 		margin-bottom: 1.6rem;
+
+		@include respond(tab-land) {
+			padding-left: 3rem;
+		}
+
+
+		@include respond(phone) {
+			padding-left: 3rem;
+		}
 	}
 
 	&__pic {
