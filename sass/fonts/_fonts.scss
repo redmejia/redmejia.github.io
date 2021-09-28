@@ -48,12 +48,16 @@
 	font-family: monospace;
 
 	@include respond(tab-land) {
+		align-items: center;
+		text-align: center;
 		color: $primary-color-1;
 		font-weight: 900;
 		font-size: $header-font-5;
 	}
 
 	@include respond(phone) {
+		align-items: center;
+		text-align: center;
 		color: $primary-color-1;
 		font-size: 2.5rem;
 		font-weight: 900;
@@ -90,12 +94,12 @@
 	// 	font-weight: 600;
 	// }
 
-	@include respond(tab-land) {
-		color: $primary-color-2;
-		font-size: 1.9rem;
+	// @include respond(tab-land) {
+	// 	color: $primary-color-2;
+	// 	font-size: 1.9rem;
 
-		// font-weight: 530;
-	}
+	// 	// font-weight: 530;
+	// }
 
 	@include respond(phone) {
 		color: $primary-color-2;

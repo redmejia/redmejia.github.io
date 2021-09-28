@@ -1,14 +1,13 @@
 // base use on header
-$primary-color: #082f47; 
+$primary-color: #082f47;
 
 // this are the option for body backgrounds or leve white.
 $primary-color-body-background: #105d7756;
 $secondary-color-body-background: #072e472a;
 
 // I use for texts
-$primary-color-1:#46a2d8; // titles 
+$primary-color-1: #46a2d8; // titles
 $primary-color-2: #123244; // sub title or paragraph
-
 
 // header font size
 $header-font-1: 8rem;
@@ -16,9 +15,7 @@ $header-font-2: 6rem;
 $header-font-4: 5.4rem;
 $header-font-5: 3rem;
 
-
-
-// base colors shodows 
+// base colors shodows
 $color-white: #ffff;
 $color-black: #000;
 
@@ -31,4 +28,5 @@ $color-name: #e05854;
 // GRID
 $grid-with: 114rem;
 $gutter-vertical: 8rem;
+$gutter-vertical-small: 6rem;
 $gutter-horizontal: 6rem;
