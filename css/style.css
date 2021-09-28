@@ -56,6 +56,9 @@ body {
   @media (max-width: 56.2em) {
     .row {
       max-width: 50rem; } }
+  @media (max-width: 75em) {
+    .row {
+      max-width: 50rem; } }
   .row::after {
     content: "";
     display: table;
@@ -66,10 +69,14 @@ body {
       margin-right: 6rem; }
       @media (max-width: 56.2em) {
         .row [class^="col-"]:not(:last-child) {
+          padding-left: 2rem;
+          padding-right: 2rem;
           margin-right: 0;
           margin-bottom: 6rem; } }
       @media (max-width: 75em) {
         .row [class^="col-"]:not(:last-child) {
+          padding-left: 2rem;
+          padding-right: 2rem;
           margin-right: 0;
           margin-bottom: 6rem; } }
       @media (max-width: 37.5em) {
@@ -78,10 +85,10 @@ body {
           padding-right: 2rem;
           margin-right: 0;
           margin-bottom: 6rem; } }
-    @media (max-width: 56.2em) {
+    @media (max-width: 75em) {
       .row [class^="col-"] {
         width: 100% !important; } }
-    @media (max-width: 75em) {
+    @media (max-width: 56.2em) {
       .row [class^="col-"] {
         width: 100% !important; } }
     @media (max-width: 37.5em) {
@@ -291,8 +298,22 @@ body {
   color: #123244;
   font-weight: 500;
   font-family: monospace; }
+  @media (max-width: 56.2em) {
+    .text-paragraph {
+      color: #123244;
+      font-size: 1.9rem;
+      padding-left: 2rem;
+      padding-right: 2rem; } }
+  @media (max-width: 75em) {
+    .text-paragraph {
+      color: #123244;
+      font-size: 1.9rem;
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (max-width: 37.5em) {
     .text-paragraph {
       color: #123244;
       font-size: 1.6rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
       font-weight: 600; } }
