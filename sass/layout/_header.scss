@@ -2,13 +2,36 @@
 	height: 93vh;
 	padding: 3rem;
 	position: relative;
-	
-	
+
 	background-color: $primary-color;
 	// background-blend-mode: screen;
 	// -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 	// clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 
+	@include respond(phone) {
+		background-color: $primary-color;
+
+		height: 60vh;
+		padding: 3rem;
+		position: relative;
+	}
+
+	@include respond(tab-land) {
+		background-color: $primary-color;
+
+		height: 75vh;
+		padding: 3rem;
+		position: relative;
+	}
+
+
+	@include respond(tab-port) {
+		background-color: $primary-color;
+
+		height: 80vh;
+		padding: 3rem;
+		position: relative;
+	}
 
 	&__avatar {
 		position: absolute;

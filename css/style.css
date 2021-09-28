@@ -25,6 +25,24 @@ body {
   padding: 3rem;
   position: relative;
   background-color: #082f47; }
+  @media (max-width: 37.5em) {
+    .header {
+      background-color: #082f47;
+      height: 60vh;
+      padding: 3rem;
+      position: relative; } }
+  @media (max-width: 75em) {
+    .header {
+      background-color: #082f47;
+      height: 75vh;
+      padding: 3rem;
+      position: relative; } }
+  @media (max-width: 56.2em) {
+    .header {
+      background-color: #082f47;
+      height: 80vh;
+      padding: 3rem;
+      position: relative; } }
   .header__avatar {
     position: absolute;
     top: 50%;
@@ -53,6 +71,9 @@ body {
     @media (max-width: 75em) {
       .row:not(:last-child) {
         margin-bottom: 6rem; } }
+  @media (max-width: 37.5em) {
+    .row {
+      max-width: 50rem; } }
   @media (max-width: 56.2em) {
     .row {
       max-width: 50rem; } }
@@ -315,5 +336,4 @@ body {
       color: #123244;
       font-size: 1.6rem;
       padding-left: 1rem;
-      padding-right: 1rem;
-      font-weight: 600; } }
+      padding-right: 1rem; } }
