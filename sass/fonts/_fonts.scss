@@ -8,6 +8,11 @@
 		font-size: $header-font-4;
 		letter-spacing: 1.1rem;
 		text-shadow: 0.5rem 1rem 2rem rgba($color-black, 2.5);
+		@include respond(phone) {
+			letter-spacing: normal;
+			font-size: $header-font-5;
+
+		}
 	}
 
 	&--second {
@@ -15,6 +20,10 @@
 		font-size: $header-font-4;
 		letter-spacing: 1.1rem;
 		text-shadow: 0.5rem 1rem 2rem rgba($color-black, 2.5);
+		@include respond(phone) {
+			letter-spacing: normal;
+			font-size: $header-font-5;
+		}
 	}
 
 	&--me {
@@ -22,6 +31,11 @@
 		// text-decoration: underline;
 		font-size: $header-font-4;
 		font-weight: bold;
+		@include respond(phone) {
+			letter-spacing: normal;
+			font-size: $header-font-5;
+
+		}
 	}
 }
 
@@ -33,7 +47,6 @@
 	font-family: monospace;
 }
 
-
 .strong-med-title {
 	font-size: $header-font-2;
 	color: $primary-color-1;
@@ -41,8 +54,6 @@
 
 	font-family: monospace;
 }
-
-
 
 .sub-titles {
 	font-size: 2rem;

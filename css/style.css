@@ -7,6 +7,15 @@
 
 html {
   font-size: 62.5%; }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 56.2em) {
+    html {
+      font-size: 50%; } }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
 
 body {
   box-sizing: border-box; }
@@ -30,8 +39,8 @@ body {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    align-items: center;
-    text-align: center; }
+    max-width: 114rem;
+    text-align: left; }
 
 .row {
   max-width: 114rem;
@@ -177,14 +186,26 @@ body {
     font-size: 5.4rem;
     letter-spacing: 1.1rem;
     text-shadow: 0.5rem 1rem 2rem black; }
+    @media (max-width: 37.5em) {
+      .heading-main--primary {
+        letter-spacing: normal;
+        font-size: 3rem; } }
   .heading-main--second {
     font-size: 5.4rem;
     letter-spacing: 1.1rem;
     text-shadow: 0.5rem 1rem 2rem black; }
+    @media (max-width: 37.5em) {
+      .heading-main--second {
+        letter-spacing: normal;
+        font-size: 3rem; } }
   .heading-main--me {
     color: #46a2d8;
     font-size: 5.4rem;
     font-weight: bold; }
+    @media (max-width: 37.5em) {
+      .heading-main--me {
+        letter-spacing: normal;
+        font-size: 3rem; } }
 
 .titles {
   font-size: 4rem;

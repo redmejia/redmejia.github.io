@@ -7,11 +7,28 @@
 }
 
 html {
-	font-size: 62.5%;
+	font-size: 62.5%; // 1 rem = 10px; 10px/16px = 0.625 or 62.5%
+
+	@include respond(tab-land) { // with < 1200
+		font-size: 56.25%; // 1 rem = 9px, 9/16 = 0.5625 or 56.25%
+	}
+
+
+	// @include respond(phone) {
+	// 	font-size: 30%;
+	// }
+
+	@include respond(tab-port) { // with < 900
+		font-size: 50%; // 1 rem = 8px, 8/16 = 0.5 or 50%
+	}
+
+	@include respond(big-desktop) {
+		font-size: 75%; // 1rem =12, 12/16 = .75 or 75%
+	}
 }
 
 body {
 	box-sizing: border-box;
-	
+
 	// background-color: $primary-color-body-background; // coment and white or secondary
 }
