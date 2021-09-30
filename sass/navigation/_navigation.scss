@@ -5,7 +5,8 @@
 
 	align-items: center;
 	text-align: center;
-	
+	// background-color: red;
+	display: block;
 	
 	&--list {
 		display: inline-block;
@@ -14,8 +15,9 @@
 		text-decoration: none;
 
 		&__link {
-			color: $primary-color;
-			display: inline-block;
+			color: $primary-color-1;
+			// display: inline-block;
+			display: block;
 			// text-align: center;
 			padding: 14px 16px;
 			text-decoration: none;

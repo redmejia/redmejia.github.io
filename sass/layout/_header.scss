@@ -1,9 +1,50 @@
 .header {
-	height: 93vh;
+	height: 95vh;
 	padding: 3rem;
 	position: relative;
 
-	background-color: $primary-color;
+	// background-image: linear-gradient(to left top, rgba($primary-color-1, 0.767), rgba($primary-color-2, 0.699)),
+	// 	url(../../img/color.jpg);
+	background-image: url(../../img/color.jpg);
+	background-size: cover;
+	/*fit the size of the box*/
+	background-position: top;
+
+	@include respond(tab-port) {
+		// height: vh;
+		padding: 3rem;
+		position: relative;
+
+		// background-image: linear-gradient(
+		// 		to left top,
+		// 		rgba($primary-color-1, 0.767),
+		// 		rgba($primary-color-2, 0.699)
+		// 	),
+		// 	url(../../img/code_.jpg);
+		background-image: url(../../img/color.jpg);
+		background-size: cover;
+		/*fit the size of the box*/
+		background-position: center;
+	}
+
+	@include respond(phone) {
+		height: 50vh;
+		padding: 3rem;
+		position: relative;
+
+		// background-image: linear-gradient(
+		// 		to left top,
+		// 		rgba($primary-color-1, 0.767),
+		// 		rgba($primary-color-2, 0.699)
+		// 	),
+		// 	url(../../img/color.jpg);
+		background-image: url(../../img/color.jpg);
+		background-size: cover;
+		/*fit the size of the box*/
+		background-position: center;
+	}
+
+	// background-color: $primary-color;
 	// background-blend-mode: screen;
 	// -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 	// clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
@@ -23,7 +64,6 @@
 		padding: 3rem;
 		position: relative;
 	}
-
 
 	@include respond(tab-port) {
 		background-color: $primary-color;

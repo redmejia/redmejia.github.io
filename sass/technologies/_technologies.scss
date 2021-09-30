@@ -12,7 +12,6 @@
 			padding-left: 3rem;
 		}
 
-
 		@include respond(phone) {
 			padding-left: 3rem;
 		}
@@ -21,7 +20,8 @@
 	&__pic {
 		margin-top: 1.5rem;
 		display: inline-block;
-		background-color: #072e4717;
+		// background-color: #072e4717;
+		background-color: white;
 		width: 5rem;
 		height: 5rem;
 		border-radius: 10%;
@@ -33,10 +33,10 @@
 
 		align-items: center;
 		margin-bottom: 1rem;
-		// box-shadow: 0 .1rem 5rem rgba(#46a2d8, .9);
 
 		&:hover {
 			transform: translateY(-1.5rem) scale(1.03);
+			box-shadow: 0 0.1rem 5rem rgba( #fff, .3);
 		}
 	}
 }

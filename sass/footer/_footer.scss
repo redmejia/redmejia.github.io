@@ -1,8 +1,18 @@
 .footer {
-	background-color: $primary-color;
+	// background-color: $primary-color;
 
 	// height: 20vh;
-	height: 30vh;
+	height: 40vh;
+
+	background-image: linear-gradient(
+			to left top,
+			rgba($primary-color-1, 0.767),
+			rgba($primary-color-2, 0.699)
+		),
+		url(../../img/color.jpg);
+	background-size: cover;
+	/*fit the size of the box*/
+	background-position: top;
 
 	// -webkit-clip-path: polygon(0 17%, 100% 0, 100% 100%, 0% 100%);
 	// clip-path: polygon(0 17%, 100% 0, 100% 100%, 0% 100%);
