@@ -65,11 +65,25 @@
 }
 
 .strong-med-title {
-	font-size: $header-font-2;
+	font-size: $header-font-3;
 	color: $primary-color-1;
 	font-weight: 900;
 
 	font-family: monospace;
+
+	@include respond(tab-port) {
+		align-items: center;
+		text-align: center;
+		letter-spacing: normal;
+		font-size: $header-font-4;
+	}
+
+	@include respond(phone) {
+		align-items: center;
+		text-align: center;
+		letter-spacing: normal;
+		font-size: $header-font-5;
+	}
 }
 
 .sub-titles {
