@@ -22,7 +22,7 @@ body {
   background-color: black; }
 
 .header {
-  height: 95vh;
+  height: 100vh;
   padding: 3rem;
   position: relative;
   background-image: url(../../img/color.jpg);
@@ -150,18 +150,26 @@ body {
     width: calc(3 * ((100% - 3 *6rem) / 4) + 2 * 6rem); }
 
 .navigation {
-  list-style-type: none;
   margin: 0;
   padding: 0;
   align-items: center;
   text-align: center;
-  display: block; }
+  display: block;
+  top: 0; }
   .navigation--list {
+    position: -webkit-sticky;
+    /* needed for ios*/
+    position: sticky;
+    top: 0;
     display: inline-block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none; }
     .navigation--list__link {
+      position: -webkit-sticky;
+      /* needed for ios*/
+      position: sticky;
+      top: 0;
       color: #46a2d8;
       display: block;
       padding: 14px 16px;
@@ -259,12 +267,12 @@ body {
       box-shadow: 0 0.1rem 5rem rgba(255, 255, 255, 0.3); }
 
 .footer {
-  height: 40vh;
-  background-image: linear-gradient(to left top, rgba(70, 162, 216, 0.767), rgba(18, 50, 68, 0.699)), url(../../img/color.jpg);
+  height: 30vh;
+  background-image: url(../../img/color.jpg);
   background-size: cover;
   /*fit the size of the box*/
-  background-position: top;
-  padding-top: 2rem;
+  transform: rotate(180deg);
+  padding-top: 1rem;
   margin: 0 auto; }
   .footer--top {
     margin: 0 auto;
@@ -273,10 +281,17 @@ body {
     background-color: black;
     border-radius: 5%; }
   .footer--contact {
+    transform: rotate(180deg);
     margin: 0 auto;
     max-width: 114rem;
     text-align: center;
-    align-items: center; }
+    align-items: center;
+    font-family: monospace;
+    color: white;
+    font-weight: 800;
+    font-size: 5.4rem;
+    letter-spacing: 1.1rem;
+    text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.8); }
 
 .heading-main {
   font-family: monospace;
