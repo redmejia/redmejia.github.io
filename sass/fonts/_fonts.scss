@@ -4,37 +4,38 @@
 	padding-top: 35rem;
 	// margin-left: 25rem;
 
-	&--primary {
-		font-size: $header-font-4;
-		letter-spacing: 1.1rem;
-		text-shadow: 0.5rem 1rem 2rem rgba($color-black, 2.5);
+	// not need
+	// &--primary {
+	// 	font-size: $header-font-4;
+	// 	letter-spacing: 1.1rem;
+	// 	text-shadow: 0.5rem 1rem 2rem rgba($color-black, 2.5);
 
-		@include respond(phone) {
-			text-align: center;
-			align-items: center;
-			letter-spacing: normal;
-			font-size: $header-font-5;
-		}
-	}
+	// 	@include respond(phone) {
+	// 		text-align: center;
+	// 		align-items: center;
+	// 		letter-spacing: normal;
+	// 		font-size: $header-font-5;
+	// 	}
+	// }
 
-	&--second {
+	&--text {
 		// display: block;
+
 		font-size: $header-font-4;
 		letter-spacing: 1.1rem;
 		text-shadow: 0.5rem 1rem 2rem rgba($color-black, 2.5);
 
 		@include respond(phone) {
-			padding-bottom: 33rem;
 
-			// bottom: 100%;
 			text-align: center;
 			align-items: center;
 			letter-spacing: normal;
 			font-size: $header-font-5;
 		}
 	}
+	&--color {
+		padding-top: 35rem;
 
-	&--me {
 		color: $primary-color-1;
 		// text-decoration: underline;
 		font-size: $header-font-4;
@@ -117,7 +118,7 @@
 
 	// 	font-weight: 600;
 	// }
-	
+
 	@include respond(tab-port) {
 		// color: $primary-color-2;
 		color: white;
@@ -126,7 +127,6 @@
 		padding-right: 2rem;
 		// font-weight: 530;
 	}
-
 
 	@include respond(tab-land) {
 		color: white;
@@ -140,7 +140,7 @@
 
 	@include respond(phone) {
 		color: white;
-		
+
 		// color: $primary-color-2;
 		font-size: 1.6rem;
 		padding-left: 1rem;

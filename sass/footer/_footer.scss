@@ -23,6 +23,18 @@
 		width: 6rem;
 		background-color: black;
 		border-radius: 5%;
+
+		@include respond(phone) {
+			// padding-bottom: 33rem;
+
+			// padding-top: rem;
+
+			// bottom: 100%;
+			// text-align: center;
+			// align-items: center;
+			// letter-spacing: normal;
+			// font-size: $header-font-5;
+		}
 	}
 
 	&--contact {
@@ -34,18 +46,24 @@
 		font-family: monospace;
 		color: white;
 		font-weight: 800;
-		
 
 		font-size: $header-font-4;
 		letter-spacing: 1.1rem;
-		text-shadow: 0.5rem 1rem 2rem rgba($color-black, .8);
+		text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.8);
 
-		// @include respond(phone) {
-		// 	text-align: center;
-		// 	align-items: center;
-		// 	letter-spacing: normal;
-		// 	font-size: $header-font-5;
-		// }
+		@include respond(phone) {
+			transform: rotate(180deg);
+			margin: 0 auto;
+			max-width: $grid-with;
+			text-align: center;
+			align-items: center;
+			font-family: monospace;
+			color: white;
+			font-weight: 800;
 
+			font-size: $header-font-4;
+			letter-spacing: 1.1rem;
+			text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.8);
+		}
 	}
 }

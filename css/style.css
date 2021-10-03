@@ -292,38 +292,41 @@ body {
     font-size: 5.4rem;
     letter-spacing: 1.1rem;
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.8); }
+    @media (max-width: 37.5em) {
+      .footer--contact {
+        transform: rotate(180deg);
+        margin: 0 auto;
+        max-width: 114rem;
+        text-align: center;
+        align-items: center;
+        font-family: monospace;
+        color: white;
+        font-weight: 800;
+        font-size: 5.4rem;
+        letter-spacing: 1.1rem;
+        text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.8); } }
 
 .heading-main {
   font-family: monospace;
   color: #ffff;
   padding-top: 35rem; }
-  .heading-main--primary {
+  .heading-main--text {
     font-size: 5.4rem;
     letter-spacing: 1.1rem;
     text-shadow: 0.5rem 1rem 2rem black; }
     @media (max-width: 37.5em) {
-      .heading-main--primary {
+      .heading-main--text {
         text-align: center;
         align-items: center;
         letter-spacing: normal;
         font-size: 3rem; } }
-  .heading-main--second {
-    font-size: 5.4rem;
-    letter-spacing: 1.1rem;
-    text-shadow: 0.5rem 1rem 2rem black; }
-    @media (max-width: 37.5em) {
-      .heading-main--second {
-        padding-bottom: 33rem;
-        text-align: center;
-        align-items: center;
-        letter-spacing: normal;
-        font-size: 3rem; } }
-  .heading-main--me {
+  .heading-main--color {
+    padding-top: 35rem;
     color: #46a2d8;
     font-size: 5.4rem;
     font-weight: bold; }
     @media (max-width: 37.5em) {
-      .heading-main--me {
+      .heading-main--color {
         text-align: center;
         align-items: center;
         letter-spacing: normal;
