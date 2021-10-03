@@ -29,41 +29,6 @@ body {
   background-size: cover;
   /*fit the size of the box*/
   background-position: top; }
-  @media (max-width: 56.2em) {
-    .header {
-      padding: 3rem;
-      position: relative;
-      background-image: url(../../img/color.jpg);
-      background-size: cover;
-      /*fit the size of the box*/
-      background-position: center; } }
-  @media (max-width: 37.5em) {
-    .header {
-      height: 50vh;
-      padding: 3rem;
-      position: relative;
-      background-image: url(../../img/color.jpg);
-      background-size: cover;
-      /*fit the size of the box*/
-      background-position: center; } }
-  @media (max-width: 37.5em) {
-    .header {
-      background-color: #082f47;
-      height: 60vh;
-      padding: 3rem;
-      position: relative; } }
-  @media (max-width: 75em) {
-    .header {
-      background-color: #082f47;
-      height: 75vh;
-      padding: 3rem;
-      position: relative; } }
-  @media (max-width: 56.2em) {
-    .header {
-      background-color: #082f47;
-      height: 80vh;
-      padding: 3rem;
-      position: relative; } }
   .header__avatar {
     position: absolute;
     top: 50%;
@@ -191,21 +156,11 @@ body {
   padding-right: 3rem; }
 
 .about-box {
+  max-width: 114rem;
+  margin: 0 auto;
   margin-top: 10rem;
-  margin-bottom: 10rem; }
-  .about-box__text {
-    max-width: 114rem;
-    margin: 0 auto;
-    font-family: monospace;
-    font-size: 2rem; }
-    @media (max-width: 37.5em) {
-      .about-box__text {
-        padding-right: 3rem;
-        padding-left: 3rem; } }
-    @media (max-width: 75em) {
-      .about-box__text {
-        padding-right: 3rem;
-        padding-left: 3rem; } }
+  margin-bottom: 10rem;
+  position: relative; }
 
 .card-box {
   position: relative;
@@ -223,20 +178,17 @@ body {
       background-size: cover;
       width: 100%;
       align-items: center;
-      background-size: cover;
-      box-shadow: 0 0.1rem 1rem white; }
+      background-size: cover; }
     .card-box__project--title {
       padding-top: 3.5rem; }
-    .card-box__project--description {
-      padding-top: 2.5rem;
-      font-size: 2rem; }
     .card-box__project--tech {
       padding-top: 4rem;
       font-size: 3rem; }
     .card-box__project--tech-tools {
       padding-top: 2rem; }
     .card-box__project:hover {
-      transform: translateY(-1.5rem) scale(1.03); }
+      transform: translateY(-1.5rem) scale(1.03);
+      box-shadow: 0 0.1rem 1rem white; }
 
 .tech-box {
   max-width: 114rem;
@@ -358,18 +310,24 @@ body {
   color: #46a2d8;
   font-weight: 900;
   font-family: monospace; }
+  @media (max-width: 75em) {
+    .strong-med-title {
+      align-items: center;
+      text-align: center;
+      letter-spacing: normal;
+      font-size: 4.5rem; } }
   @media (max-width: 56.2em) {
     .strong-med-title {
       align-items: center;
       text-align: center;
       letter-spacing: normal;
-      font-size: 5.4rem; } }
+      font-size: 4.5rem; } }
   @media (max-width: 37.5em) {
     .strong-med-title {
       align-items: center;
       text-align: center;
       letter-spacing: normal;
-      font-size: 3rem; } }
+      font-size: 2rem; } }
 
 .sub-titles {
   font-size: 2rem;
@@ -386,8 +344,8 @@ body {
     .text-paragraph {
       color: white;
       font-size: 1.9rem;
-      padding-left: 2rem;
-      padding-right: 2rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (max-width: 75em) {
     .text-paragraph {
       color: white;
@@ -398,5 +356,5 @@ body {
     .text-paragraph {
       color: white;
       font-size: 1.6rem;
-      padding-left: 1rem;
-      padding-right: 1rem; } }
+      padding-left: 2rem;
+      padding-right: 2rem; } }

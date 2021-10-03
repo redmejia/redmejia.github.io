@@ -1,51 +1,19 @@
-// .about-box {
-
-// 	margin-top: 20rem;
-// 	position: relative;
-// 	top: 40%;
-// 	left: 50%;
-// 	height: 30rem;
-// 	width: 55rem;
-// 	// background-color: red; // see about position.
-// 	transform: translate(-50%, -50%);
-
-// 	&__text {
-// 		font-family: monospace;
-// 		padding-top: 1.1rem;
-// 		position: relative;
-// 		font-size: 2rem;
-// 		// color: $about-color-text;
-// 		color: white;
-// 		// align-items: center;
-// 		// text-align: center;
-// 		letter-spacing:normal;
-// 	}
-// }
 
 .about-box {
+	max-width: $grid-with;
+
+	margin: 0 auto;
+
 	margin-top: 10rem;
 	margin-bottom: 10rem;
 
+	position: relative;
 	// background-color: darkred;
 
-	&__text {
-		max-width: $grid-with;
-		margin: 0 auto;
-		font-family: monospace;
-		font-size: 2rem;
-		@include respond(phone) {
-			padding-right: 3rem;
-			padding-left: 3rem;
-		}
-
-		@include respond(tab-land){
-			padding-right: 3rem;
-			padding-left: 3rem;
-
-		}
-
-
-		// align-items: center;
-		// text-align: center;
-	}
+	// &__text {
+	// 	max-width: $grid-with;
+	// 	margin: 0 auto;
+	// 	font-family: monospace;
+	// 	font-size: 2rem;
+	// }
 }

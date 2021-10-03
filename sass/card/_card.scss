@@ -11,19 +11,8 @@
         transition: transform 0.3s; // don't forget everytime you add efect
         height: 60rem;
         width: 100%;
-        // background-color: #e9f5f542; // card background
-        // background-color: yellowgreen;
-        // box-shadow: 0 0.1rem 1rem rgba(rgba(15, 13, 13, 0.315), 0.9);
-        // box-shadow: 0 0.1rem 1rem rgba(#fff, 0.9);
 
         position: relative;
-
-        // @include respond(phone) {
-        //     padding-left: 4rem;
-        //     // padding-right: 3rem;
-        //     // height: 55rem;
-        //     // width: 100%;
-        // }
 
         &--pic {
             height: 60rem;
@@ -31,44 +20,29 @@
             width: 100%;
             align-items: center;
             background-size: cover;
-
-            box-shadow: 0 0.1rem 1rem rgba(#fff, 1.9);
-
-            // overflow: hidden;
-
-            // @include respond(phone)
-            // {
-            //     height: 60rem;
-            //     background-size: cover;
-            //     width: 100%;
-            //     align-items: center;
-            //     background-size: cover;
-            // }
         }
+
         &--title {
             padding-top: 3.5rem;
-            // font-size: 4rem;
-            // color: #123244;
-            // color: red;
         }
-        &--description {
-            padding-top: 2.5rem;
-            // padding-left: 1rem;
-            font-size: 2rem;
-            // color: #123244;
-        }
+
+        // &--description {
+        //     padding-top: 2.5rem;
+        //     font-size: 2rem;
+        // }
 
         &--tech {
             padding-top: 4rem;
             font-size: 3rem;
         }
+        
         &--tech-tools {
             padding-top: 2rem;
-            // width: 80px;
         }
 
         &:hover {
             transform: translateY(-1.5rem) scale(1.03);
+            box-shadow: 0 0.1rem 1rem rgba(#fff, 1.9);
         }
     }
 }

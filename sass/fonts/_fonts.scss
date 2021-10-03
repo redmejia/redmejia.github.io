@@ -4,20 +4,7 @@
 	padding-top: 35rem;
 	// margin-left: 25rem;
 
-	// not need
-	// &--primary {
-	// 	font-size: $header-font-4;
-	// 	letter-spacing: 1.1rem;
-	// 	text-shadow: 0.5rem 1rem 2rem rgba($color-black, 2.5);
-
-	// 	@include respond(phone) {
-	// 		text-align: center;
-	// 		align-items: center;
-	// 		letter-spacing: normal;
-	// 		font-size: $header-font-5;
-	// 	}
-	// }
-
+	
 	&--text {
 		// display: block;
 
@@ -81,19 +68,29 @@
 
 	font-family: monospace;
 
+
+	@include respond(tab-land) {
+		align-items: center;
+		text-align: center;
+		letter-spacing: normal;
+		font-size: $header-font-3;
+	}
+
 	@include respond(tab-port) {
 		align-items: center;
 		text-align: center;
 		letter-spacing: normal;
-		font-size: $header-font-4;
+		font-size: $header-font-3;
 	}
 
 	@include respond(phone) {
 		align-items: center;
 		text-align: center;
 		letter-spacing: normal;
-		font-size: $header-font-5;
+		font-size: 2rem;
 	}
+
+	
 }
 
 .sub-titles {
@@ -123,8 +120,8 @@
 		// color: $primary-color-2;
 		color: white;
 		font-size: 1.9rem;
-		padding-left: 2rem;
-		padding-right: 2rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
 		// font-weight: 530;
 	}
 
@@ -138,13 +135,14 @@
 		// font-weight: 530;
 	}
 
+
 	@include respond(phone) {
 		color: white;
 
 		// color: $primary-color-2;
 		font-size: 1.6rem;
-		padding-left: 1rem;
-		padding-right: 1rem;
+		padding-left: 2rem;
+		padding-right: 2rem;
 		// font-weight: 600;
 	}
 }
