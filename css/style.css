@@ -217,14 +217,14 @@ body {
     transition: transform 0.3s;
     height: 60rem;
     width: 100%;
-    box-shadow: 0 0.1rem 1rem rgba(15, 13, 13, 0.9);
     position: relative; }
     .card-box__project--pic {
       height: 60rem;
       background-size: cover;
       width: 100%;
       align-items: center;
-      background-size: cover; }
+      background-size: cover;
+      box-shadow: 0 0.1rem 1rem white; }
     .card-box__project--title {
       padding-top: 3.5rem; }
     .card-box__project--description {

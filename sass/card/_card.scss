@@ -13,7 +13,9 @@
         width: 100%;
         // background-color: #e9f5f542; // card background
         // background-color: yellowgreen;
-        box-shadow: 0 0.1rem 1rem rgba(rgba(15, 13, 13, 0.315), 0.9);
+        // box-shadow: 0 0.1rem 1rem rgba(rgba(15, 13, 13, 0.315), 0.9);
+        // box-shadow: 0 0.1rem 1rem rgba(#fff, 0.9);
+
         position: relative;
 
         // @include respond(phone) {
@@ -29,6 +31,10 @@
             width: 100%;
             align-items: center;
             background-size: cover;
+
+            box-shadow: 0 0.1rem 1rem rgba(#fff, 1.9);
+
+            // overflow: hidden;
 
             // @include respond(phone)
             // {
