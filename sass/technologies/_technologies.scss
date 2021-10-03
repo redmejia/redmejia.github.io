@@ -3,24 +3,9 @@
 	max-width: $grid-with;
 	margin: 0 auto;
 
-	// title box position
-	&__title {
-		margin-top: 1.6rem;
-		margin-bottom: 1.6rem;
-
-		@include respond(tab-land) {
-			padding-left: 3rem;
-		}
-
-		@include respond(phone) {
-			padding-left: 3rem;
-		}
-	}
-
-	&__pic {
+	&__img {
 		margin-top: 1.5rem;
 		display: inline-block;
-		// background-color: #072e4717;
 		background-color: white;
 		width: 5rem;
 		height: 5rem;
@@ -28,20 +13,31 @@
 		position: relative;
 		transition: transform 0.3s; // don't forget everytime you add efect
 
-		margin-left: 2rem;
-		// background-color: red;
-
-		align-items: center;
+		margin-left: 1.2rem;
+		
 		margin-bottom: 1rem;
 
+		
+		
 		&:hover {
 			transform: translateY(-1.5rem) scale(1.03);
-			box-shadow: 0 0.1rem 5rem rgba( #fff, .3);
+			box-shadow: 0 0.1rem 5rem rgba(#fff, 0.3);
 		}
 	}
-}
 
-// .technology{
-// 	margin-left: 150px;
-// 	margin-right: 150px;
-// }
+	@include respond(tab-land) {
+		align-items: center;
+		text-align: center;
+	}
+	@include respond(tab-port) {
+		align-items: center;
+		text-align: center;
+	}
+
+	@include respond(phone) {
+		align-items: center;
+		text-align: center;
+	}
+
+
+}

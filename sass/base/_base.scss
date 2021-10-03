@@ -14,10 +14,7 @@ html {
 	}
 
 
-	// @include respond(phone) {
-	// 	font-size: 30%;
-	// }
-
+	
 	@include respond(tab-port) { // with < 900
 		font-size: 50%; // 1 rem = 8px, 8/16 = 0.5 or 50%
 	}
@@ -30,7 +27,6 @@ html {
 body {
 	box-sizing: border-box;
 
-	// background-color: $primary-color-body-background; // coment and white or secondary
-	// background-color: $primary-color-2;
+	
 	background-color: black;
 }

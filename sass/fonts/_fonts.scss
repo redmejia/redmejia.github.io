@@ -2,24 +2,20 @@
 	font-family: monospace;
 	color: $color-white;
 	padding-top: 35rem;
-	// margin-left: 25rem;
 
-	
 	&--text {
-		// display: block;
-
 		font-size: $header-font-4;
 		letter-spacing: 1.1rem;
 		text-shadow: 0.5rem 1rem 2rem rgba($color-black, 2.5);
 
 		@include respond(phone) {
-
 			text-align: center;
 			align-items: center;
 			letter-spacing: normal;
 			font-size: $header-font-5;
 		}
 	}
+
 	&--color {
 		padding-top: 35rem;
 
@@ -68,7 +64,6 @@
 
 	font-family: monospace;
 
-
 	@include respond(tab-land) {
 		align-items: center;
 		text-align: center;
@@ -89,8 +84,6 @@
 		letter-spacing: normal;
 		font-size: 2rem;
 	}
-
-	
 }
 
 .sub-titles {
@@ -99,50 +92,43 @@
 	font-weight: 800;
 
 	font-family: monospace;
+
+	@include respond(phone) {
+		margin-top: 1rem;
+
+		align-items: center;
+		text-align: center;
+	}
 }
 
 .text-paragraph {
 	font-size: 1.9rem;
-	// color: $primary-color-1;
 	color: white;
 	font-weight: 500;
 
 	font-family: monospace;
 
-	// @include respond(phone) {
-	// 	color: $primary-color-2;
-	// 	font-size: 1.6rem;
-
-	// 	font-weight: 600;
-	// }
-
 	@include respond(tab-port) {
-		// color: $primary-color-2;
 		color: white;
 		font-size: 1.9rem;
-		padding-left: 1rem;
-		padding-right: 1rem;
-		// font-weight: 530;
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
 	}
 
 	@include respond(tab-land) {
 		color: white;
 
-		// color: $primary-color-2;
 		font-size: 1.9rem;
 		padding-left: 1rem;
 		padding-right: 1rem;
-		// font-weight: 530;
 	}
-
 
 	@include respond(phone) {
 		color: white;
 
-		// color: $primary-color-2;
 		font-size: 1.6rem;
-		padding-left: 2rem;
-		padding-right: 2rem;
-		// font-weight: 600;
+		padding-left: 1rem;
+		padding-right: 1rem;
+		font-weight: 600;
 	}
 }

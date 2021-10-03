@@ -179,11 +179,6 @@ body {
       width: 100%;
       align-items: center;
       background-size: cover; }
-    .card-box__project--title {
-      padding-top: 3.5rem; }
-    .card-box__project--tech {
-      padding-top: 4rem;
-      font-size: 3rem; }
     .card-box__project--tech-tools {
       padding-top: 2rem; }
     .card-box__project:hover {
@@ -193,16 +188,7 @@ body {
 .tech-box {
   max-width: 114rem;
   margin: 0 auto; }
-  .tech-box__title {
-    margin-top: 1.6rem;
-    margin-bottom: 1.6rem; }
-    @media (max-width: 75em) {
-      .tech-box__title {
-        padding-left: 3rem; } }
-    @media (max-width: 37.5em) {
-      .tech-box__title {
-        padding-left: 3rem; } }
-  .tech-box__pic {
+  .tech-box__img {
     margin-top: 1.5rem;
     display: inline-block;
     background-color: white;
@@ -211,18 +197,30 @@ body {
     border-radius: 10%;
     position: relative;
     transition: transform 0.3s;
-    margin-left: 2rem;
-    align-items: center;
+    margin-left: 1.2rem;
     margin-bottom: 1rem; }
-    .tech-box__pic:hover {
+    .tech-box__img:hover {
       transform: translateY(-1.5rem) scale(1.03);
       box-shadow: 0 0.1rem 5rem rgba(255, 255, 255, 0.3); }
+  @media (max-width: 75em) {
+    .tech-box {
+      align-items: center;
+      text-align: center; } }
+  @media (max-width: 56.2em) {
+    .tech-box {
+      align-items: center;
+      text-align: center; } }
+  @media (max-width: 37.5em) {
+    .tech-box {
+      align-items: center;
+      text-align: center; } }
 
 .footer {
   height: 30vh;
   background-image: url(../../img/color.jpg);
   background-size: cover;
   /*fit the size of the box*/
+  background-position: right;
   transform: rotate(180deg);
   padding-top: 1rem;
   margin: 0 auto; }
@@ -244,19 +242,6 @@ body {
     font-size: 5.4rem;
     letter-spacing: 1.1rem;
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.8); }
-    @media (max-width: 37.5em) {
-      .footer--contact {
-        transform: rotate(180deg);
-        margin: 0 auto;
-        max-width: 114rem;
-        text-align: center;
-        align-items: center;
-        font-family: monospace;
-        color: white;
-        font-weight: 800;
-        font-size: 5.4rem;
-        letter-spacing: 1.1rem;
-        text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.8); } }
 
 .heading-main {
   font-family: monospace;
@@ -334,6 +319,11 @@ body {
   color: #46a2d8;
   font-weight: 800;
   font-family: monospace; }
+  @media (max-width: 37.5em) {
+    .sub-titles {
+      margin-top: 1rem;
+      align-items: center;
+      text-align: center; } }
 
 .text-paragraph {
   font-size: 1.9rem;
@@ -344,8 +334,8 @@ body {
     .text-paragraph {
       color: white;
       font-size: 1.9rem;
-      padding-left: 1rem;
-      padding-right: 1rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (max-width: 75em) {
     .text-paragraph {
       color: white;
@@ -356,5 +346,6 @@ body {
     .text-paragraph {
       color: white;
       font-size: 1.6rem;
-      padding-left: 2rem;
-      padding-right: 2rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem;
+      font-weight: 600; } }
