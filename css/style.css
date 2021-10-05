@@ -170,13 +170,13 @@ body {
   font-family: monospace; }
   .card-box__project {
     transition: transform 0.3s;
-    height: 60rem;
+    height: 100%;
     width: 100%;
     position: relative; }
     .card-box__project--pic {
-      height: 60rem;
-      background-size: cover;
+      height: 100%;
       width: 100%;
+      object-fit: contain;
       align-items: center;
       background-size: cover; }
     .card-box__project--tech-tools {
