@@ -149,6 +149,12 @@ body {
       transform: translateY(-1.5rem) scale(1.03);
       text-shadow: 0 0.1rem 5rem rgba(255, 255, 255, 0.3); }
 
+.go-to {
+  text-decoration: none;
+  font-size: 1.9rem;
+  font-weight: 600;
+  color: #46a2d8; }
+
 .navigation {
   margin: 0;
   padding: 0;
