@@ -114,6 +114,41 @@ body {
   .row .col-3-of-4 {
     width: calc(3 * ((100% - 3 *6rem) / 4) + 2 * 6rem); }
 
+.btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  position: relative;
+  border: none;
+  cursor: pointer;
+  margin-top: 2rem;
+  margin-right: 2rem; }
+  .btn:hover {
+    transform: translateY(-3px);
+    transform: translateY(-1.5rem) scale(1.03);
+    box-shadow: 0 0.1rem 5rem rgba(255, 255, 255, 0.3); }
+  .btn--white {
+    background-color: white;
+    color: black;
+    font-family: monospace;
+    font-size: 2.5rem; }
+  .btn--top {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+    font-size: 10rem;
+    font-weight: 800;
+    text-align: center;
+    align-items: center; }
+    .btn--top:hover {
+      transform: translateY(-3px);
+      transform: translateY(-1.5rem) scale(1.03);
+      text-shadow: 0 0.1rem 5rem rgba(255, 255, 255, 0.3); }
+
 .navigation {
   margin: 0;
   padding: 0;
