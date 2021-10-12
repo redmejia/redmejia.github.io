@@ -12,38 +12,47 @@
 	margin-top: 2rem;
 	margin-right: 2rem;
 
-	&:hover {
-		transform: translateY(-3px);
-		transform: translateY(-1.5rem) scale(1.03);
-		box-shadow: 0 0.1rem 5rem rgba(#fff, 0.3);
-	}
-
+	
 	&--white {
-		background-color: white;
-		color: black;
-		font-family: monospace;
-		font-size: 2.5rem;
-	}
-	// go to top
-	&--top {
-		text-transform: uppercase;
-		text-decoration: none;
+		background-color: rgba(252, 252, 252, 0.034);
+		letter-spacing: 0.4rem;
+
+
 		color: white;
 		font-family: monospace;
-		font-size: 10rem;
-		font-weight: 800;
-		// text-align: center;
-		text-align: center;
-		align-items: center;
-		&:hover {
-			transform: translateY(-3px);
-			transform: translateY(-1.5rem) scale(1.03);
-			text-shadow: 0 0.1rem 5rem rgba(#fff, 0.3);
-		}
+		font-size: 2.5rem;
+		font-weight: 600;
+
+		
+		box-shadow: 0 0rem 1rem rgba(#fff, 0.1);
 	}
+
+	&--white-big {
+		background-color: rgba(14, 206, 240, 0.089);
+
+		color: white;
+		font-family: monospace;
+		// font-size: $header-font-4;
+
+
+		box-shadow: 0 0.1rem 5rem rgba(#000, 0.9);
+		
+		
+	}
+
+	&:hover {
+		background-color: $primary-color-1;
+
+		transform: translateY(-1.2rem) scale(1.02);
+		// box-shadow: 0 0.1rem 5rem rgba(#fff, 0.3);
+	}
+
+	
+
+
 }
 
-// for link no button
+// for links no button
 .go-to {
 	text-decoration: none;
 	font-size: 1.9rem;
