@@ -12,18 +12,19 @@
 	margin-top: 2rem;
 	margin-right: 2rem;
 
-	
 	&--white {
 		background-color: rgba(252, 252, 252, 0.034);
 		letter-spacing: 0.4rem;
-
 
 		color: white;
 		font-family: monospace;
 		font-size: 2.5rem;
 		font-weight: 600;
 
-		
+		@include respond(phone) {
+			border: 0.1rem solid white;
+		}
+
 		box-shadow: 0 0rem 1rem rgba(#fff, 0.1);
 	}
 
@@ -34,10 +35,7 @@
 		font-family: monospace;
 		// font-size: $header-font-4;
 
-
 		box-shadow: 0 0.1rem 5rem rgba(#000, 0.9);
-		
-		
 	}
 
 	&:hover {
@@ -46,10 +44,6 @@
 		transform: translateY(-1.2rem) scale(1.02);
 		// box-shadow: 0 0.1rem 5rem rgba(#fff, 0.3);
 	}
-
-	
-
-
 }
 
 // for links no button
