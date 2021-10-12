@@ -1,6 +1,6 @@
 # Reynaldo Fullstack Developer
 
-Hi, I am Reynaldo and this portfolio.\
-I would to share with you my personal projects.
+Hi, I am Reynaldo and this is my portfolio.\
+I would to share my projects with you.
 
-Note : My portfolio still under construction. 
+Note: My portfolio is still under construction. 
