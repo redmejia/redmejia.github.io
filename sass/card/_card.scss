@@ -1,38 +1,53 @@
-.card-box {
-    position: relative;
+.card-style {
+    width: 25rem; // increment the width and height to add more technologies
+    height: 15rem;
+    background-color: $primary-color-3;
 
-    letter-spacing: normal;
-    margin-top: 10rem;
-    margin-bottom: 10rem;
+    border-radius: $card-radius-size;
+    // margin-top: 2.5rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
-    font-family: monospace;
+    box-shadow: 0 1rem 0.9rem rgba($basic-2, 0.7);
 
-    &__project {
-        transition: transform 0.3s; // don't forget everytime you add efect
-        height: 100%;
-        width: 100%;
+    &__side {
+        width: 6.5rem;
+        height: 6.5rem;
 
-        position: relative;
+        border-radius: 100%;
+        background-color: $primary-color-2;
 
-        &--pic {
-            height: 100%;
-            width: 100%;
+        box-shadow: 0 1rem 0.6rem rgba($basic-2, 0.6);
 
-            // object-fit: fill;
-            object-fit: contain;
-            // background-size: cover;
-            align-items: center;
-            background-size: cover;
+        margin: 0 auto;
+
+        top: 0%;
+        left: 0%;
+
+        transform: translate(-0%, -50%);
+
+        &--client {
+            margin-top: 1rem;
+
+            width: 55%;
         }
 
-
-        &--tech-tools {
-            padding-top: 2rem;
+        &--server {
+            margin-top: 1rem;
+            width: 50%;
         }
+    }
+}
 
-        &:hover {
-            transform: translateY(-1.5rem) scale(1.03);
-            box-shadow: 0 0.1rem 1rem rgba(#fff, 1.9);
-        }
+
+
+
+.card-modal-style {
+    background-color: $primary-color-3;
+    &--inner-card {
+        border-radius: $card-radius-size;
+        // margin: 0 auto;
+        box-shadow: 0 1rem 0.9rem rgba($basic-2, 0.7);
     }
 }

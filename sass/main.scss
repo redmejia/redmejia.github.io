@@ -1,26 +1,24 @@
 @import "variables/variables";
-@import "variables/mixins";
 
-
-@import "base/base";
-
-@import "layout/header";
-@import "layout/gird";
+@import "header/header";
 
 @import "button/button";
+@import "technologies/technologies";
+@import "card/card";
+
+@import "projects/projects";
+@import "fonts/fonts";
+@import "footer/footer";
 
 @import "navigation/navigation";
 
 
-@import "contact/contact";
-
-@import "about/about";
-
-@import "card/card";
 
 
-@import "technologies/technologies";
 
-@import "footer/footer";
+// @import "about/about";
 
-@import "fonts/fonts";
+
+
+
+

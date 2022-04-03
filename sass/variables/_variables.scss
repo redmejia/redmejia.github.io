@@ -1,33 +1,15 @@
-// base use on header
-$primary-color: #082f47;
+// basics colors
+$basic-1 : #fff;
+$basic-2 : #000;
 
-// this are the option for body backgrounds or leve white.
-$primary-color-body-background: #105d7756;
-$secondary-color-body-background: #072e472a;
+// colors 
+$primary-color-1 : #3C4E86;
+$primary-color-2 : #737373;
+$primary-color-3 :  #262626;
 
-// I use for texts
-$primary-color-1: #46a2d8; // titles
-$primary-color-2: #123244; // sub title or paragraph
+$primary-color-4 : #57C6F4;
 
-// header font size
-$header-font-1: 8rem;
-$header-font-2: 6rem;
-$header-font-3: 4.5rem;
-$header-font-4: 5.4rem;
-$header-font-5: 3rem;
+$light-dark : #010101c7;
 
-// base colors shodows
-$color-white: #ffff;
-$color-black: #000;
-
-// my name color
-$color-name: #e05854;
-
-// about color text
-// $about-color-text:  #0B3746;
-
-// GRID
-$grid-with: 114rem;
-$gutter-vertical: 8rem;
-$gutter-vertical-small: 6rem;
-$gutter-horizontal: 6rem;
+$buttons-radius-size: 0.2rem;
+$card-radius-size: 1rem;

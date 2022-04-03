@@ -1,35 +1,35 @@
 .footer {
-	height: 30vh;
+	position: relative;
+	margin-top: 8rem;
+	height: 40vh;
+	background-color: $primary-color-3;
 
-	background-image: url(../../img/color.jpg);
-	background-size: cover;
+	&__circle {
+		margin-top: 3rem;
+		width: 5.5rem;
+		height: 5.5rem;
 
-	/*fit the size of the box*/
-	background-position: right;
+		border-radius: 100%;
+		background-color: $primary-color-2;
 
-	transform: rotate(180deg);
+		box-shadow: 0 1rem 0.6rem rgba($basic-2, 0.6);
 
-	padding-top: 1rem;
-	margin: 0 auto;
-
-	&--top {
-		// margin: 0 auto;
-		height: 4rem;
-		width: 4rem;
-	}
-
-	&--contact {
-		transform: rotate(180deg);
 		margin: 0 auto;
-		max-width: $grid-with;
-		text-align: center;
-		align-items: center;
-		font-family: monospace;
-		color: white;
-		font-weight: 800;
 
-		font-size: $header-font-4;
-		letter-spacing: 1.1rem;
-		text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.8);
+		top: 0%;
+		left: 0%;
+		transform: translate(-0%, -50%);
+
+		&--uparrow {
+			margin-top: 1rem;
+
+			width: 55%;
+		}
+		&:hover {
+			transform: translateY(-1.9rem) scale(1.03);
+
+			background-color: $primary-color-3;
+			box-shadow: 0 0rem 3rem rgba($primary-color-4, 0.2);
+		}
 	}
 }

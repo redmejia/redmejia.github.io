@@ -1,0 +1,14 @@
+.header {
+	height: 100vh;
+	background-color: $primary-color-3;
+	position: relative;
+
+	&__whoami {
+		position: absolute;
+
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+}

@@ -1,45 +1,35 @@
-// .tech-circle
-.tech-box {
-	max-width: $grid-with;
-	margin: 0 auto;
+.technologies {
+    position: relative;
+    transition: transform 0.3s; // don't forget everytime you add efect
 
-	&__img {
-		margin-top: 1.5rem;
-		display: inline-block;
-		background-color: white;
-		width: 5rem;
-		height: 5rem;
-		border-radius: 10%;
-		position: relative;
-		transition: transform 0.3s; // don't forget everytime you add efect
+    &--sm-box {
+        width: 3.5rem;
+        height: 3.5rem;
+        border-radius: 10%;
+        // border-radius: 100%;
 
-		margin-left: 1.2rem;
-		
-		margin-bottom: 1rem;
+        &:hover {
+            // transform: translateY(-1.5rem) scale(1.03);
+            // background-color: $primary-color-1;
+            // box-shadow: 0 1rem 0.9rem rgba($basic-2, 0.4);
 
-		
-		
-		&:hover {
+            background-color: $primary-color-3;
+            box-shadow: 0 0rem 3rem rgba($primary-color-4, 0.2);
+        }
+    }
 
-			// transform: translateY(-1.5rem) scale(1.03);
-			background-color: $primary-color-1;
-			box-shadow: 0 0.1rem 5rem rgba(#fff, 0.3);
-		}
-	}
+    &--md-box {
+        width: 4.5rem;
+        height: 4.5rem;
+        border-radius: 10%;
 
-	@include respond(tab-land) {
-		align-items: center;
-		text-align: center;
-	}
-	@include respond(tab-port) {
-		align-items: center;
-		text-align: center;
-	}
+        &:hover {
+            // transform: translateY(-1.5rem) scale(1.03);
+            // background-color: $primary-color-1;
+            // box-shadow: 0 1rem 0.9rem rgba($basic-2, 0.4);
 
-	@include respond(phone) {
-		align-items: center;
-		text-align: center;
-	}
-
-
+            background-color: $primary-color-3;
+            box-shadow: 0 0rem 3rem rgba($primary-color-4, 0.2);
+        }
+    }
 }

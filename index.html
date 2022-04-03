@@ -5,282 +5,321 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/svg+xml" href="/img/icon/Last.svg">
+    <link rel="icon" type="image/svg+xml" href="/img/icon/Icon.svg">
     <title>portfolio</title>
 </head>
 
 <body>
-
-    <!-- header section -->
-    <header class="header">
-        <div class="header__text-box">
-            <!-- <img src="img/me.jpeg" alt="avatar" class="header__avatar"> -->
-
-            <div class="heading-main" id="main">
-                <h1 class="heading-main--text"> Hello, World<br /> I'm <span class="heading-main--color">Reynaldo
-                        Mejia</span> fullstack
-                    developer
-                </h1>
+    <div class="cover-container d-flex w-100 h-100  mx-auto flex-column">
+        <header class="mb-auto header">
+            <div class="container">
+                <nav class="nav nav-masthead justify-content-center float-md-end">
+                    <a class="nav-link active" aria-current="page" href="#">About</a>
+                    <a class="nav-link" href="#my-projects">Projects</a>
+                    <a class="nav-link" href="#contact">Contact</a>
+                </nav>
             </div>
-
-            <div class="header__links-btn">
-                <a href="#" class="btn btn--white-big heading-main--text">
-                    resume
-                </a>
-                <a href="https://github.com/redmejia" class="btn btn--white-big heading-main--text">
-                    github
-                </a>
-            </div>
-
-        </div>
-
-    </header>
-
-
-    <!-- navigation -->
-    <nav>
-        <ul class="navigation">
-            <li class="navigation--list">
-                <a href="#about" class="navigation--list__link">About</a>
-            </li>
-            <li class="navigation--list">
-                <a href="#prosjects" class="navigation--list__link">Projects</a>
-            </li>
-            <li class="navigation--list">
-                <a href="#contact" class="navigation--list__link">Contact</a>
-            </li>
-        </ul>
-    </nav>
-
-    <!-- about section -->
-    <div class="about-box" id="about">
-        <p class="strong-med-title">About</p>
-        <p class="text-paragraph">
-            ...loading
-        </p>
-    </div>
-
-
-    <!-- section technologies -->
-    <div class="tech-box">
-        <p class="strong-med-title">Technologies </p>
-
-        <div class="row">
-            <div class="col-1-of-2">
-                <p class="sub-titles">Front-end </p>
-
-                <div class="tech-box__img">
-                    <img src="img/tech/react.svg" alt="techs">
-                </div>
-
-                <div class="tech-box__img">
-                    <img src="img/tech/redux.svg" alt="techs">
-                </div>
-
-
-                <div class="tech-box__img">
-                    <img src="img/tech/html5.svg" alt="techs">
-                </div>
-
-                <div class="tech-box__img">
-                    <img src="img/tech/css3.svg" alt="techs">
-                </div>
-
-                <div class="tech-box__img">
-                    <img src="img/tech/sass.svg" alt="techs">
+        </header>
+        <main>
+            <div class="container">
+                <div class="header__whoami">
+                    <p class="text-center title-md-upper ">
+                        Hello, 🌎 I'm Reynaldo Mejia full-stack developer
+                    </p>
+                    <div class="align-self-stretch d-none d-sm-block d-sm-none d-md-block">
+                        <img src="img/tech/go.svg" class="technologies--md-box" alt="go">
+                        <img src="img/tech/html5.svg" class="technologies--md-box" alt="html">
+                        <img src="img/tech/css3.svg" class="technologies--md-box" alt="css">
+                        <img src="img/tech/react.svg" class="technologies--md-box" alt="react">
+                        <img src="img/tech/sass.svg" class="technologies--md-box" alt="sass">
+                        <img src="img/tech/gnubash.svg" class="technologies--md-box" alt="bash">
+                        <img src="img/tech/nodedotjs.svg" class="technologies--md-box" alt="node">
+                        <img src="img/tech/postgresql.svg" class="technologies--md-box" alt="postgresql">
+                        <img src="img/tech/mongodb.svg" class="technologies--md-box" alt="nosql">
+                        <img src="img/tech/bootstrap.svg" class="technologies--md-box" alt="bootstrap">
+                    </div>
                 </div>
             </div>
-            <div class="col-1-of-2">
-                <p class="sub-titles">Back-end and data storage </p>
-                <div class="tech-box__img">
-                    <img src="img/tech/go.svg" alt="techs">
-                </div>
-
-                <div class="tech-box__img">
-                    <img src="img/tech/gnubash.svg" alt="techs">
-                </div>
-
-                <div class="tech-box__img">
-                    <img src="img/tech/nodedotjs.svg" alt="techs">
-                </div>
-
-                <div class="tech-box__img">
-                    <img src="img/tech/postgresql.svg" alt="techs">
-                </div>
-
-            </div>
-        </div>
+        </main>
 
     </div>
 
+    <!-- About me section -->
 
+    <!-- Not yet -->
 
-    <!-- card box projects -->
-    <div class="card-box" id="prosjects">
-        <div class="row">
-            <div class="col-1-of-2">
-                <div class="card-box__project">
-                    <img src="./img/project/img/walk-store.png" alt="project-1" class="card-box__project--pic">
-                </div>
-            </div>
-            <div class="col-1-of-2">
-                <p class="strong-med-title">Walk Store</p>
-                <p class="text-paragraph">
-                    Full-stack web application. Walk Shoes Store is an e-commerce web application for small businesses.
-                    For this project, I used
-                    technologies such as react.js, bootstrap frameworks for the front-end, and redux for state
-                    management. In addition to that, I used Go for the server-side for api documentation go to <a
-                        href="https://github.com/redmejia/walk-api" class="go-to"> walk-api </a> , In addition to that,
-                    I used
-                    PostgreSQL for data storage.
-                </p>
-                <div class="card-box__project--tech-tools">
-
-                    <div class="tech-box">
-
-                        <p class="sub-titles">Technologies used</p>
-                        <div class="tech-box__img">
-                            <img src="img/tech/react.svg" alt="techs">
-                        </div>
-                        <div class="tech-box__img">
-                            <img src="img/tech/redux.svg" alt="techs">
-                        </div>
-                        <div class="tech-box__img">
-                            <img src="img/tech/bootstrap.svg" alt="techs">
-                        </div>
-                        <div class="tech-box__img">
-                            <img src="img/tech/go.svg" alt="techs">
-                        </div>
-                        <div class="tech-box__img">
-                            <img src="img/tech/postgresql.svg" alt="techs">
-                        </div>
-                        <!-- my repo link -->
-                        <p class="sub-titles">Repo</p>
-                        <a href="https://github.com/redmejia/walk" class="btn btn--white">
-                            source code
-                        </a>
-                    </div>
-
-                </div>
-
-            </div>
+    <!-- stack technologie -->
+    <div class="container mt-5 pb-4 pt-4 ">
+        <div class="col col-md-12">
+            <h1 class="text-center title-md">Techologies</h1>
         </div>
-
-
-        <div class="row">
-            <div class="col-1-of-2">
-                <div class="card-box__project">
-                    <img src="./img/project/img/small-bak.png" alt="project-1" class="card-box__project--pic">
-                </div>
-            </div>
-            <div class="col-1-of-2">
-                <p class="card-box__project--title strong-med-title">Small Bank</p>
-                <p class="card-box__project--description text-paragraph">
-                    The Small Bank is a REST-API project written in Go. On this project, I wanted to put in practice Go
-                    language concepts such as interface, methods, database connection, routing, and structs. The project
-                    Small Bank has four endpoints. First, the account endpoint for creating new client accounts.Second,
-                    the deposit for making a transaction of type deposit. Third, the withdrawal for making a new
-                    transaction of type withdraw. Fourth, the purchase endpoint. On this endpoint, an amount purchased
-                    is withdrawn from the checking account. Moreover, the Small Bank purchase endpoint is implemented on
-                    the <a href="https://github.com/redmejia/walk-api" class="go-to"> walk-api</a> every time a new
-                    purchase is made.
-                    Finally, all the client information
-                    is stored on the
-                    PostgreSQL database. More information on source code readme file.
-                </p>
-                <div class="card-box__project--tech-tools">
-
-                    <div class="tech-box">
-
-                        <p class="sub-titles">Technologies used</p>
-                        <div class="tech-box__img">
-                            <img src="img/tech/go.svg" alt="techs">
-                        </div>
-                        <div class="tech-box__img">
-                            <img src="img/tech/gnubash.svg" alt="techs">
-                        </div>
-                        <div class="tech-box__img">
-                            <img src="img/tech/postgresql.svg" alt="techs">
-                        </div>
-
-
-                        <p class="sub-titles">Repo</p>
-                        <a href="https://github.com/redmejia/sm-bank" class="btn btn--white">
-                            source code
-                        </a>
+        <div class="row mt-5">
+            <div class="col mt-4 ">
+                <div class="card card-style">
+                    <div class="text-center card-style__side">
+                        <img class="card-style__side--client" src="img/tech/front-end.svg" alt="front-end" />
                     </div>
-
-
-                </div>
-
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-1-of-2">
-                <div class="card-box__project">
-                    <img src="./img/project/img/stop-store.png" alt="project-1" class="card-box__project--pic">
+                    <p class="text-center sub-title-sm-bold ">Front-end</p>
+                    <div class="align-self-center">
+                        <img src="img/tech/react.svg" class="technologies--sm-box" alt="react">
+                        <img src="img/tech/html5.svg" class="technologies--sm-box" alt="html">
+                        <img src="img/tech/css3.svg" class="technologies--sm-box" alt="css">
+                        <img src="img/tech/sass.svg" class="technologies--sm-box" alt="sass">
+                        <img src="img/tech/bootstrap.svg" class="technologies--sm-box" alt="bootstrap">
+                    </div>
                 </div>
             </div>
-            <div class="col-1-of-2">
-                <p class="card-box__project--title strong-med-title">Stop Nucamp portfolio project</p>
-                <p class="card-box__project--description text-paragraph">
-                    The Stop website is a landing e-commerce portfolio project to practice what I learned on Nucamp
-                    Coding Bootcamp. On this project. I implement bootstrap layout grid and features such color, spacing
-                    classes, I also implemented components such as Navbar, Buttons, Cards. Moreover, I implemente
-                    bootstrap icons for social media.
-                </p>
-                <div class="card-box__project--tech-tools">
 
-                    <div class="tech-box">
-
-                        <p class="sub-titles">Technologies used</p>
-                        <div class="tech-box__img">
-                            <img src="img/tech/bootstrap.svg" alt="techs">
-                        </div>
-                        <div class="tech-box__img">
-                            <img src="img/tech/html5.svg" alt="techs">
-                        </div>
-                        <div class="tech-box__img">
-                            <img src="img/tech/css3.svg" alt="techs">
-                        </div>
-                        <p class="sub-titles">Repo</p>
-                        <a href="https://github.com/redmejia/stop" class="btn btn--white">
-                            source code
-                        </a>
+            <div class="col mt-4">
+                <div class="card card-style">
+                    <div class="text-center card-style__side">
+                        <img class="card-style__side--server" src="img/tech/back-end.svg" alt="front-end" />
+                    </div>
+                    <p class="text-center sub-title-sm-bold ">Back-end</p>
+                    <div class="align-self-center">
+                        <img src="img/tech/go.svg" class="technologies--sm-box" alt="go">
+                        <img src="img/tech/gnubash.svg" class="technologies--sm-box" alt="bash">
+                        <img src="img/tech/nodedotjs.svg" class="technologies--sm-box" alt="node">
+                        <img src="img/tech/postgresql.svg" class="technologies--sm-box" alt="postgresql">
+                        <img src="img/tech/mongodb.svg" class="technologies--sm-box" alt="nosql">
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
 
+
+
+    <!-- Project Modal Section -->
+    <div>
+        <!-- Modal Walk project -->
+        <div class="modal fade" id="walkStore" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content card-modal-style">
+                    <div class="modal-body">
+                        <button type="button" class="btn-close button button--close" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                        <h5 class="text-center card-title title-md">Walk Store</h5>
+                        <p class="paragraph">
+                            Full-stack web application. Walk Shoes Store is an e-commerce web application for
+                            small
+                            businesses.
+                            For this project, I used
+                            technologies such as react.js, bootstrap frameworks for the front-end, and redux for
+                            state
+                            management. In addition to that, I used Go for the server-side for api documentation
+                            go
+                            to <a href="https://github.com/redmejia/walk-api" class="go-to"> walk-api </a> , In
+                            addition to
+                            that, I used PostgreSQL for data storage.
+                        </p>
+                        <div class="align-self-stretch text-center  pt-3 pb-3 card-modal-style--inner-card  ">
+                            <p class=" sub-title-sm-bold">Technologies used</p>
+                            <img src="img/tech/react.svg" class="technologies--sm-box" alt="react">
+                            <img src="img/tech/redux.svg" class="technologies--sm-box" alt="redux">
+                            <img src="img/tech/bootstrap.svg" class="technologies--sm-box" alt="bootstrap">
+                            <img src="img/tech/go.svg" class="technologies--sm-box" alt="go">
+                            <img src="img/tech/postgresql.svg" class="technologies--sm-box" alt="postgresql">
+                        </div>
+                    </div>
+                    <a href="https://github.com/redmejia/walk" class=" mt-2 mb-2 ms-2 me-2 text-center button">
+                        source code
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Small Bank project -->
+        <div class="modal fade" id="smallBank" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content card-modal-style">
+                    <div class="modal-body">
+                        <button type="button" class="btn-close button button--close" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                        <h5 class="text-center card-title title-md">Small Bank</h5>
+                        <p class="paragraph">
+                            The Small Bank is a REST-API project written in Go. On this project, I wanted to put in
+                            practice
+                            Go
+                            language concepts such as interface, methods, database connection, routing, and structs.
+                            The
+                            project
+
+                            the <a href="https://github.com/redmejia/walk-api" class="go-to"> walk-api</a> every
+                            time a
+                            new
+                            purchase is made.
+                            Finally, all the client information
+                            is stored on the
+                            PostgreSQL database. More information on source code readme file.
+                        </p>
+                        <div class="align-self-stretch text-center  pt-3 pb-3  card-modal-style--inner-card ">
+                            <p class=" sub-title-sm-bold">Technologies used</p>
+                            <img src="img/tech/go.svg" class="technologies--sm-box" alt="go">
+                            <img src="img/tech/gnubash.svg" class="technologies--sm-box" alt="bash">
+                            <img src="img/tech/postgresql.svg" class="technologies--sm-box" alt="postgresql">
+                        </div>
+                    </div>
+                    <a href="https://github.com/redmejia/sm-bank" class=" mt-2 mb-2 ms-2 me-2 text-center button">
+                        source code
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Stop Nucamp portfolio project -->
+        <div class="modal fade" id="stopNucamp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content card-modal-style">
+                    <div class="modal-body">
+                        <button type="button" class="btn-close button button--close" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                        <h5 class="text-center card-title title-md">Stop Nucamp portfolio project</h5>
+                        <p class="paragraph">
+                            The Stop website is a landing e-commerce portfolio project to practice what I learned on
+                            Nucamp
+                            Coding Bootcamp. On this project. I implement bootstrap layout grid and features such
+                            color,
+                            spacing
+                            classes, I also implemented components such as Navbar, Buttons, Cards. Moreover, I
+                            implemente
+                            bootstrap icons for social media.
+                        </p>
+                        <div class="align-self-stretch text-center  pt-3 pb-3  card-modal-style--inner-card ">
+                            <p class="sub-title-sm-bold">Technologies used</p>
+                            <img src="img/tech/bootstrap.svg" class="technologies--sm-box" alt="bootstrap">
+                            <img src="img/tech/html5.svg" class="technologies--sm-box" alt="html">
+                            <img src="img/tech/css3.svg" class="technologies--sm-box" alt="css">
+                        </div>
+                    </div>
+                    <a href="https://github.com/redmejia/stop" class=" mt-2 mb-2 ms-2 me-2 text-center button">
+                        source code
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Stop Nucamp mobile version portfolio project -->
+        <div class="modal fade" id="stopNucampApp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content card-modal-style">
+                    <div class="modal-body">
+                        <button type="button" class="btn-close button button--close" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                        <h5 class="text-center card-title title-md">Stop Nucamp Mobile Version portfolio project
+                        </h5>
+                        <p class="paragraph">
+                            Working on description
+                        </p>
+                        <div class="align-self-stretch text-center  pt-3 pb-3  card-modal-style--inner-card ">
+                            <p class="sub-title-sm-bold">Technologies used</p>
+                            <img src="img/tech/react.svg" class="technologies--sm-box" alt="react">
+                            <img src="img/tech/go.svg" class="technologies--sm-box" alt="go">
+                            <img src="img/tech/postgresql.svg" class="technologies--sm-box" alt="postgresql">
+                        </div>
+                    </div>
+                    <a href="https://github.com/redmejia/stop-native-app"
+                        class=" mt-2 mb-2 ms-2 me-2 text-center button">
+                        source code
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Images -->
+    <div class="container mt-4">
+        <div class="row" id="my-projects">
+            <div class="col col-md-12 col-xl-12 text-center mt-4  pb-3 pt-3">
+                <h1 class="text-center title-md">My Projects</h1>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12 col-md-6 col-xl-6 align-self-center  projects">
+                <img src="./img/project/img/walk-store.png" alt="project-1" class="projects__pictures">
+                <div class="my-project">
+                    <p class="my-project__name">Walk Store</p>
+                    <p>
+                        <a class="button text-center read-more-btn" data-bs-toggle="modal" href="#walkStore"
+                            role="button">
+                            Read More
+                        </a>
+                    </p>
+                </div>
+
+            </div>
+            <div class="col-12 col-md-6 col-xl-6 align-self-center  projects">
+                <img src="./img/project/img/small-bak.png" alt="project-1" class="projects__pictures">
+                <div class="my-project">
+                    <p class="my-project__name">Small Bank</p>
+                    <p>
+                        <a class="button text-center read-more-btn" data-bs-toggle="modal" href="#smallBank"
+                            role="button">
+                            Read More
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-6 align-self-center  projects">
+                <img src="./img/project/img/stop-store.png" alt="project-1" class="projects__pictures">
+                <div class="my-project">
+                    <p class="my-project__name">Stop Store</p>
+                    <p>
+                        <a class="button text-center read-more-btn" data-bs-toggle="modal" href="#stopNucamp"
+                            role="button">
+                            Read More
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-6 align-self-center  projects">
+                <img src="./img/project/img/stop-app.png" alt="project-1" class="projects__pictures">
+                <div class="my-project">
+                    <p class="my-project__name">Stop App</p>
+                    <p>
+                        <a class="button text-center read-more-btn" data-bs-toggle="modal" href="#stopNucampApp"
+                            role="button">
+                            Read More
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- footer section -->
     <footer class="footer" id="contact">
-
-        <div class="footer--contact">
-
-            <a href="#" class="btn btn--white">
-                <div class="footer--top">
-                    <img src="./img/tech/arrow.svg" alt="project-1" class="card-box__project--pic">
-                </div>
+        <div class="footer__circle text-center">
+            <a href="#my-projects">
+                <img src="./img/tech/uparrow.svg" class="footer__circle--uparrow" alt="project-1">
             </a>
-
-
-            <h1 class="heading-main--text">Contact me</h1>
-            <div class="tech-box__img">
-                <img src="img/tech/linkedin.svg" alt="techs">
+        </div>
+        <div class="container mt-4 mb-4">
+            <div class="col">
+                <p class="text-center  title-md" id="contact">
+                    Contact Me
+                </p>
             </div>
-            <div class="tech-box__img">
-                <img src="img/tech/github.svg" alt="techs">
+            <div class="row mt-4">
+                <div class="col text-center align-self-center">
+                    <img src="./img/tech/LinkedIn.svg" class="technologies--md-box" alt="more-about-me">
+                </div>
+                <div class="col text-center  align-self-center">
+                    <img src="./img/tech/github.svg" class="technologies--md-box" alt="more-about-me">
+                </div>
             </div>
-
+            <div class="col mb-4">
+                <p class=" text-center sub-title-sm">
+                    &copy;2022 Developed By Reynaldo Mejia
+                </p>
+            </div>
         </div>
     </footer>
-
+    <script src="node_modules/jquery/dist/jquery.slim.js"></script>
+    <script src="node_modules/@popperjs/core/dist/umd/popper-base.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
-
 </html>

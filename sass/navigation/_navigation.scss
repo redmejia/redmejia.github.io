@@ -1,54 +1,9 @@
-.navigation {
-	// list-style-type: none;
-	margin: 0;
-	padding: 0;
+.nav-link {
+	color: $primary-color-4;
+	font-size: 1.5rem;
 
-	align-items: center;
-	text-align: center;
-	// background-color: red;
-	display: block;
-	// margin-top: 3rem;
-
-	// position: -webkit-sticky; /* needed for ios*/
-	// position: sticky;
-	top: 0;
-
-	&--list {
-		position: -webkit-sticky; /* needed for ios*/
-		position: sticky;
-		top: 0;
-
-		display: inline-block;
-		text-align: center;
-		padding: 14px 16px;
-
-		// padding: 8.7rem 1rem;
-		// padding-top: 3rem;
-		// padding-bottom: 3rem;
-		text-decoration: none;
-
-		&__link {
-			position: -webkit-sticky; /* needed for ios*/
-			position: sticky;
-			top: 0;
-
-			color: $primary-color-1;
-			// display: inline-block;
-			display: block;
-			// text-align: center;
-			padding: 14px 16px;
-			text-decoration: none;
-			font-family: monospace;
-			font-size: 1.5rem;
-			font-weight: 900;
-
-			&:hover {
-				color: white;
-			}
-		}
-
-		&:hover {
-			background-color: $primary-color;
-		}
+	&:hover {
+		color: $primary-color-4;
+		border-bottom: 0.1rem $primary-color-4 solid;
 	}
 }

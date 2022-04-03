@@ -1,56 +1,49 @@
-.btn {
+.button {
+	background-color: $light-dark;
 	text-transform: uppercase;
 	text-decoration: none;
 	padding: 0.5rem 1rem;
 	display: inline-block;
-	border-radius: 1rem;
+	border-radius: $buttons-radius-size;
 	transition: all 0.2s;
 	position: relative;
 
-	border: none;
-	cursor: pointer;
-	margin-top: 2rem;
-	margin-right: 2rem;
+	color: $basic-1;
 
-	&--white {
-		background-color: rgba(252, 252, 252, 0.034);
+	&--white-big {
+		background-color: $light-dark;
 		letter-spacing: 0.4rem;
 
-		color: white;
+		color: $basic-1;
 		font-family: monospace;
 		font-size: 2.5rem;
 		font-weight: 600;
 
-		@include respond(phone) {
-			border: 0.1rem solid white;
-		}
-
-		box-shadow: 0 0rem 1rem rgba(#fff, 0.1);
+		// box-shadow: 0 0rem 1rem rgba($basic-1, 0.1);
 	}
 
-	&--white-big {
-		background-color: rgba(14, 206, 240, 0.089);
-
-		color: white;
-		font-family: monospace;
-		// font-size: $header-font-4;
-
-		box-shadow: 0 0.1rem 5rem rgba(#000, 0.9);
+	&--close{
+		background-color: $primary-color-4;
+		text-decoration: none;
+		display: inline-block;
+		border-radius: $buttons-radius-size;
+		transition: all 0.2s;
+		position: relative;
 	}
 
 	&:hover {
-		background-color: $primary-color-1;
-
-		transform: translateY(-1.2rem) scale(1.02);
-		// box-shadow: 0 0.1rem 5rem rgba(#fff, 0.3);
+		background-color: $primary-color-4;
+		color: $basic-1;
+		box-shadow: 0 0rem 3rem rgba($primary-color-4, 0.2);
+		// transform: translateY(-1.2rem) scale(1.01);
 	}
 }
 
 // for links no button
 .go-to {
 	text-decoration: none;
-	font-size: 1.9rem;
+	// font-size: 1.9rem;
 	font-weight: 600;
 
-	color: $primary-color-1;
+	color: $basic-1;
 }

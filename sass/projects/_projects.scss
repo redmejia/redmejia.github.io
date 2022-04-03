@@ -1,0 +1,61 @@
+.projects {
+    position: relative;
+
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    &__pictures {
+        transition: transform 0.3s; // don't forget everytime you add efect
+
+        // position: relative;
+
+        height: 100%;
+        width: 100%;
+
+        object-fit: fill;
+        object-fit: contain;
+        background-size: cover;
+        align-items: center;
+
+        &:hover {
+            --webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+            filter: blur(4px);
+            transform: translateY(-1.5rem) scale(1.03);
+            box-shadow: 0 1rem 0.9rem rgba($basic-2, 0.7);
+        }
+    }
+}
+
+.read-more-btn {
+    // z-index: 2;
+    // top: 5rem;
+    display: none;
+    // left: 59px;
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.projects:hover .read-more-btn {
+    display: block;
+}
+
+
+.my-project {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    &__name {
+        background-color: $primary-color-3;
+        border: 0.1rem white solid;
+        font-size: 2rem;
+        color: $primary-color-4;
+        margin-bottom: 2rem;
+    }
+}
