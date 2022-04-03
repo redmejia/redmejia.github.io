@@ -8,6 +8,19 @@
     left: 50%;
     transform: translate(-50%, -50%); }
 
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 80.5%; }
+
+body {
+  box-sizing: border-box; }
+
 .button {
   background-color: #010101c7;
   text-transform: uppercase;
