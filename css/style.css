@@ -199,7 +199,7 @@
 .footer {
   position: relative;
   margin-top: 5rem;
-  height: 35vmax;
+  height: 35vh;
   background-color: #262626; }
   .footer__circle {
     margin-top: 3rem;
@@ -219,6 +219,31 @@
       transform: translateY(-1.9rem) scale(1.03);
       background-color: #262626;
       box-shadow: 0 0rem 3rem rgba(87, 198, 244, 0.2); }
+
+@media (min-width: 560px) {
+  .footer {
+    position: relative;
+    margin-top: 5rem;
+    height: 55vh;
+    background-color: #262626; }
+    .footer__circle {
+      margin-top: 3rem;
+      width: 5.5rem;
+      height: 5.5rem;
+      border-radius: 100%;
+      background-color: #737373;
+      box-shadow: 0 1rem 0.6rem rgba(0, 0, 0, 0.6);
+      margin: 0 auto;
+      top: 0%;
+      left: 0%;
+      transform: translate(0%, -50%); }
+      .footer__circle--uparrow {
+        margin-top: 1rem;
+        width: 55%; }
+      .footer__circle:hover {
+        transform: translateY(-1.9rem) scale(1.03);
+        background-color: #262626;
+        box-shadow: 0 0rem 3rem rgba(87, 198, 244, 0.2); } }
 
 .nav-link {
   color: #57C6F4;
