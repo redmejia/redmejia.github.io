@@ -1,11 +1,4 @@
-@media (min-width: 800px) {
-	.footer {
-		position: relative;
-		margin-top: 5rem;
-		height: 45vh;
-		background-color: $primary-color-3;
-	}
-}
+
 
 
 .footer {
@@ -41,14 +34,5 @@
 			background-color: $primary-color-3;
 			box-shadow: 0 0rem 3rem rgba($primary-color-4, 0.2);
 		}
-	}
-}
-
-@media (max-width: 900px) {
-	.footer {
-		position: relative;
-		margin-top: 5rem;
-		height: 45vh;
-		background-color: $primary-color-3;
 	}
 }
