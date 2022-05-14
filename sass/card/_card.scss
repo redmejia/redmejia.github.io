@@ -40,6 +40,13 @@
   }
 }
 
+// for about section
+.card-style-bg{
+  width: 25rem;
+  background-color: $primary-color-3;
+  border-radius: $card-radius-size;
+}
+
 @media (max-width: 375px) {
   .card-style {
     width: 25rem; // increment the width and height to add more technologies
