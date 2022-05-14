@@ -202,10 +202,9 @@
   font-weight: 400; }
 
 .footer {
-  position: relative;
   margin-top: 5rem;
-  height: 40vh;
-  background-color: #262626; }
+  background-color: #262626;
+  padding: 20px 0; }
   .footer__circle {
     margin-top: 3rem;
     width: 5.5rem;
@@ -224,6 +223,9 @@
       transform: translateY(-1.9rem) scale(1.03);
       background-color: #262626;
       box-shadow: 0 0rem 3rem rgba(87, 198, 244, 0.2); }
+
+hr {
+  color: #57C6F4; }
 
 .nav-link {
   color: #57C6F4;

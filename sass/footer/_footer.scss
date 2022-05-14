@@ -1,11 +1,7 @@
-
-
-
 .footer {
-	position: relative;
 	margin-top: 5rem;
-	height: 40vh;
 	background-color: $primary-color-3;
+	padding: 20px 0;
 
 	&__circle {
 		margin-top: 3rem;
@@ -35,4 +31,8 @@
 			box-shadow: 0 0rem 3rem rgba($primary-color-4, 0.2);
 		}
 	}
+}
+
+hr {
+	color: $primary-color-4;
 }
