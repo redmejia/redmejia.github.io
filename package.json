@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "fullstack porfolio ",
+  "description": "My porfolio",
   "main": "index.js",
   "scripts": {
     "compile": "node-sass sass/main.scss css/style.css -w"
