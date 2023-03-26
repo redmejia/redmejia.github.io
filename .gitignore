@@ -2,3 +2,5 @@
 
 package-lock.json
 
+.vscode
+img/.DS_Store
