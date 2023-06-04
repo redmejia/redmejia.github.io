@@ -1,17 +1,17 @@
 {
   "name": "portfolio",
-  "version": "1.0.0",
-  "description": "My porfolio",
+  "version": "2.0.0",
+  "description": "Hi, I am Reynaldo and this is my portfolio. I would like to share my projects with you.",
   "main": "index.js",
   "scripts": {
     "compile": "node-sass sass/main.scss css/style.css -w"
   },
-  "author": "Reynaldo Mejia",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.1.3",
-    "jquery": "^3.6.0",
-    "node-sass": "^7.0.1",
-    "sass": "^1.49.9"
+    "node-sass": "^9.0.0",
+    "sass": "^1.62.1"
   }
 }

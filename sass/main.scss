@@ -1,25 +1,21 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+
 @import "variables/variables";
 
-@import "header/header";
-
-
+@import "fonts/fonts";
 @import "button/button";
 @import "technologies/technologies";
 @import "card/card";
 
-@import "projects/projects";
-@import "fonts/fonts";
+
+@import "header/header";
 @import "footer/footer";
-
-@import "navigation/navigation";
-
-
-
-
-
-// @import "about/about";
-
-
-
-
-
+@import "projects/projects";

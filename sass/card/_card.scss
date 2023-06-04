@@ -41,7 +41,7 @@
 }
 
 // for about section
-.card-style-bg{
+.card-style-bg {
   width: 25rem;
   background-color: $primary-color-3;
   border-radius: $card-radius-size;
@@ -98,11 +98,52 @@
     box-shadow: 0 1rem 0.9rem rgba($basic-2, 0.7);
   }
 }
+
 .card-modal-style {
   background-color: $primary-color-3;
+
   &--inner-card {
     border-radius: $card-radius-size;
     // margin: 0 auto;
     box-shadow: 0 1rem 0.9rem rgba($basic-2, 0.7);
   }
 }
+
+.card-md-tech-client {
+  background-color: #F3F4F6;
+  height: 100%;
+  border-top-style: solid;
+  border-top-width: medium;
+  // border-top-right-radius: 15px;
+  // border-top-left-radius: 15px;
+  border-top-color: #6BAD69;
+  border-radius: 15px;
+
+  &:hover{
+    border-radius: $card-radius-size;
+    // margin: 0 auto;
+    box-shadow: 0 1rem 0.9rem rgba($basic-2, 0.7);
+  }
+}
+
+.service-img {
+  width: 300px;
+  height: 200px;
+}
+
+
+.card-md-tech-server {
+  background-color: #F3F4F6;
+  height: 100%;
+  border-top-style: solid;
+  border-top-width: medium;
+  border-top-color: #ED2222;
+  border-radius: 15px;
+
+  &:hover{
+    border-radius: $card-radius-size;
+    // margin: 0 auto;
+    box-shadow: 0 1rem 0.9rem rgba($basic-2, 0.7);
+  }
+}
+

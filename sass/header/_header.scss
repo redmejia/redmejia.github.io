@@ -1,14 +1,21 @@
 .header {
-	height: 100vh;
-	background-color: $primary-color-3;
+	height: 80vh;
+	// background-color: $primary-color-3;
+	background: linear-gradient(to right, #262626 , #4488a6 );
 	position: relative;
 
 	&__whoami {
 		position: absolute;
 
-		top: 50%;
+		top: 40%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 	}
 
+}
+
+.header-nav-services{
+	height: 8vh;
+	background: linear-gradient(to right, #262626 , #4488a6 );
+	position: relative;
 }

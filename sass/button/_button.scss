@@ -22,7 +22,7 @@
 		// box-shadow: 0 0rem 1rem rgba($basic-1, 0.1);
 	}
 
-	&--close{
+	&--close {
 		background-color: $primary-color-4;
 		text-decoration: none;
 		display: inline-block;
@@ -38,6 +38,30 @@
 		// transform: translateY(-1.2rem) scale(1.01);
 	}
 }
+
+.sm-btn-gr {
+	// background-color: $light-dark;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+	display: inline-block;
+	// border-radius: $buttons-radius-size;
+	transition: all 0.2s;
+	position: relative;
+
+	font-weight: 500;
+
+
+	background: linear-gradient(to left, #262626, #4488a6);
+	color: $basic-1;
+
+	&:hover{
+		background: linear-gradient(to right, #262626, #4488a6);
+		color: $basic-1;
+		box-shadow: 0 1rem 3rem rgba($basic-3, 0.15);
+	}
+}
+
 
 // for links no button
 .go-to {
