@@ -8127,13 +8127,14 @@ hr {
     .projects__pictures:hover {
       transform: translateY(-1.5rem) scale(1.03);
       box-shadow: 0 1rem 0.9rem rgba(0, 0, 0, 0.7); }
-  .projects__video {
-    height: 100%;
-    width: 100%;
-    object-fit: fill;
-    object-fit: contain;
-    background-size: cover;
-    align-items: center; }
+
+.project-video {
+  height: 360px;
+  width: 100%;
+  object-fit: fill;
+  object-fit: contain;
+  background-size: cover;
+  align-items: center; }
 
 .read-more-btn {
   z-index: 2;
