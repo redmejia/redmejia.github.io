@@ -8125,8 +8125,8 @@ hr {
     background-size: cover;
     align-items: center; }
     .projects__pictures:hover {
-      transform: translateY(-1.5rem) scale(1.03);
-      box-shadow: 0 1rem 0.9rem rgba(0, 0, 0, 0.7); }
+      transform: translateX(-0.3rem) scale(1.03);
+      box-shadow: 0 0rem 0.9rem rgba(0, 0, 0, 0.7); }
 
 .project-video {
   height: 360px;
