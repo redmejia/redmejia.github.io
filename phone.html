@@ -40,6 +40,32 @@
     </nav>
     <div>
 
+        <!-- Modal Hi App -->
+        <div class="modal fade" id="hiApp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content card-modal-style">
+                    <div class="modal-body">
+                        <button type="button" class="btn-close button button--close" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                        <h5 class="text-center card-title title-md">Art App</h5>
+                        <p class="paragraph">
+                            Hi App is a chat that I built using React Native. The idea of this project was to learn
+                            Typescript, Reusable Components, Context Api and React Native Animated. This app is
+                            front-end only and has no back-end logic.
+                        </p>
+                        <div class="align-self-stretch text-center  pt-3 pb-3  card-modal-style--inner-card ">
+                            <p class="sub-title-sm-bold">Technologies used</p>
+                            <img src="img/tech/TS.svg" class="technologies--sm-box" alt="TypeScript">
+                            <img src="img/tech/react.svg" class="technologies--sm-box" alt="react">
+                        </div>
+                    </div>
+                    <a href="https://github.com/redmejia/hi-app" class=" mt-2 mb-2 ms-2 me-2 text-center button">
+                        source code
+                    </a>
+                </div>
+            </div>
+        </div>
+
         <!-- Modal Art App -->
         <div class="modal fade" id="artApp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
@@ -181,6 +207,25 @@
     </div>
     <div class="container mt-4 mb-5">
         <div class="row mt-5">
+            <!-- Hi App -->
+            <div class="col-12 col-md-6 col-xl-6 align-self-center projects">
+                <div>
+                    <div>
+                        <iframe class="project-video"
+                            src="https://drive.google.com/file/d/1G5rkvK-HcNyq927vQFzWlH9sD4lU_UIw/preview"
+                            allow="autoplay"></iframe>
+                    </div>
+                </div>
+                <div class="my-project">
+                    <p class="my-project__name text-center">Art App - Video Demo</p>
+                    <a class="button text-center" data-bs-toggle="modal" data-bs-target="#hiApp">
+                        Read More
+                    </a>
+                    <a href="https://github.com/redmejia/hi-app" class="mt-2 mb-2 ms-2 me-2 text-center button">
+                        source code
+                    </a>
+                </div>
+            </div>
             <!-- Art App -->
             <div class="col-12 col-md-6 col-xl-6 align-self-center projects">
                 <div>
@@ -238,7 +283,7 @@
                     </a>
                 </div>
             </div>
-           
+
             <!-- Art App -->
             <div class="col-12 col-md-6 col-xl-6 align-self-center projects">
                 <div>
@@ -308,6 +353,8 @@
                     <div class="col-6 col-md-2 mb-3">
                         <h5 class="title-md">Mobile Projects</h5>
                         <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="https://github.com/redmejia/hi-app"
+                                    class="nav-link p-0 text-muted">Hi App</a></li>
                             <li class="nav-item mb-2"><a href="https://github.com/redmejia/art-app"
                                     class="nav-link p-0 text-muted">Art App</a></li>
                             <li class="nav-item mb-2"><a href="https://github.com/redmejia/next-day"
