@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,15 +9,16 @@
         integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link href="css/device.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    <link rel="icon" type="image/svg+xml" href="/img/tech/kotlin.svg">
+    <link rel="icon" type="image/svg+xml" href="/img/icon/app_icon.svg">
+    
     <title>Reynaldo</title>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-md bg-dark sticky-top border-bottom" data-bs-theme="dark">
         <div class="container">
-            <a class="navbar-brand" href="#">
-                <img alt="tech light" src="/img/tech/kotlin.svg" alt="Portfolio Icon" height="30">
+            <a class="navbar-brand" href="#home">
+                <img alt="tech dark" src="/img/icon/app_icon.svg" height="40">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas"
                 aria-controls="offcanvas" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +26,7 @@
             </button>
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
                 <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasLabel">Navigation</h5>
+                    <h5 class="offcanvas-title" id="offcanvasLabel">Reynaldo Mejía</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
@@ -40,7 +40,7 @@
             </div>
         </div>
     </nav>
-    <main class="container">
+    <main class="container" id="home">
         <div class="">
             <div class="position-relative overflow-hidden p-3 p-md-5  text-center bg-body-tertiary">
                 <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
@@ -52,30 +52,24 @@
             </div>
         </div>
         <!-- About me section -->
-        <div class="about-section py-5 ">
-            <div class="row">
-                <div class="col">
-                    <h1 class="text-center title-md-inverse" id="whoami">About Me</h1>
-                </div>
+        <div class="py-5" id="whoami">
+            <div class="col">
+                <h1 class="text-center title-md-inverse">About Me</h1>
             </div>
-            <div class="row">
-                <div class="col">
-                    <p class="fs-4">
-                        I am a mobile developer proficient in technologies such as React Native framework, Kotlin and
-                        Jetpack Compose.
-                        My main experience lies in mobile development, where I enjoy creating intuitive and fluid user
-                        experiences.
-                        Driven by curiosity and a love of learning, I also ventured into the world of Go (Golang),
-                        expanding my skills through self-directed study.
-                    </p>
-                    <div class="pb-4">
-                        <div class="action-btns-container">
-                            <a href="https://drive.google.com/file/d/19uIPz0jyV4FBO6rTZqiYQJJPwuYASvnM/view?usp=sharing"
-                                class="portfolio-button action-button_light">View Resume
-                            </a>
-                            <a href="https://binarystack.netlify.app/"
-                                class="portfolio-button action-button_light">Blogs</a>
-                        </div>
+            <div class="col">
+                <p class="fs-4">
+                    I am a mobile developer proficient in Kotlin, Jetpack Compose, and the React Native framework.
+                    My main experience is in mobile development, where I enjoy creating intuitive and fluid user
+                    experiences. Driven by curiosity and a love of learning, I have also explored Go (Golang)
+                    through self-directed study.
+                </p>
+                <div>
+                    <div class="action-btns-container">
+                        <a href="https://drive.google.com/file/d/19uIPz0jyV4FBO6rTZqiYQJJPwuYASvnM/view?usp=sharing"
+                            class="portfolio-button action-button_light">View Resume
+                        </a>
+                        <a href="https://binarystack.netlify.app/"
+                            class="portfolio-button action-button_light">Blogs</a>
                     </div>
                 </div>
             </div>
@@ -83,6 +77,68 @@
 
         <!-- Project Section -->
         <div class="d-md-flex flex-md-equal w-100 my-md-3" id="my-projects">
+            <!-- Modal Bos pp -->
+            <div class="modal fade" id="bosApp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <!-- modal-xl class is to big for Embedded video -->
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content card-modal-style">
+                        <div class="modal-body p-0">
+                            <button type="button" class="btn-close button button--close" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                            <div class="col">
+                                <iframe class="video-container"
+                                    src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7318720756886974464?collapsed=1"
+                                    frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden d-flex flex-column h-100"
+                style="border-radius: 21px 21px 21px 21px;">
+                <div class="my-3">
+                    <h2 class="display-5">Bos</h2>
+                    <p class="text-start lead">Bos is a mobile-based Point of Sale (POS) system designed to product
+                        scanning and
+                        inventory management.
+                        <br></br>
+                        The mobile application is built using the MVVM architecture and leverages modern Android
+                        components
+                        for a seamless user experience.
+                        <br></br>
+                        Barcode scanning is implemented using Google's ML Kit, allowing fast and reliable barcode
+                        detection.
+                        CameraX is integrated for real-time image analysis and barcode scanning.
+                        The app includes runtime camera permission handling to ensure secure access.
+                        Retrofit is used to handle all HTTP requests efficiently, connecting the app to the backend
+                        server.
+                        The app includes support for Spanish locale, making it accessible to Spanish-speaking users.
+                        <br></br>
+                        The backend server is developed in Go using the standard library to keep things lightweight
+                        and
+                        efficient.
+                        <br></br>
+                        It exposes endpoints that return detailed information about barcodes scanned from the mobile
+                        app.
+                        JWT (JSON Web Tokens) are used for secure authentication and authorization of requests.
+                    </p>
+                </div>
+                <div class="col tech-icon-container py-2">
+                    <h4 class="py-2">Technologies used</h4>
+                    <img src="/img/tech/kotlin.svg" alt="tech dark" height="60">
+                    <img src="/img/tech/jetpack_compose.svg" alt="tech dark" height="60">
+                    <img src="/img/tech/go.svg" alt="tech dark" height="60">
+                </div>
+                <div class="col action-btns-container py-4 mt-auto">
+                    <button class="portfolio-button action-button_light" data-bs-toggle="modal"
+                        data-bs-target="#bosApp">Video Demo</button>
+                    <a href="https://github.com/redmejia/bos" class="portfolio-button action-button_light">
+                        Source Code
+                    </a>
+                </div>
+            </div>
+            <div class="d-block d-md-none col-sm py-2"></div>
+
             <!-- Modal Gym Mobile -->
             <div class="modal fade" id="gymApp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
@@ -95,17 +151,17 @@
                                 <iframe class="video-container"
                                     src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7309329533000720384?collapsed=1"
                                     frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden d-flex flex-column h-100"
+            <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden d-flex flex-column h-100"
                 style="border-radius: 21px 21px 21px 21px;">
                 <div class="my-3">
                     <h2 class="display-5">Gym Mobile</h2>
-                    <p class="text-start lead">This Android project involves a mobile application designed to help users
+                    <p class="text-start lead">This Android project involves a mobile application designed to help
+                        users
                         perform workout routines at the gym. The application offers an intuitive interface with
                         predefined routines and selection buttons to start each exercise. The primary goal of this
                         project was to practice and implement the following Android components:
@@ -118,20 +174,20 @@
                 </div>
                 <div class="col tech-icon-container py-2">
                     <h4 class="py-2">Technologies used</h4>
-                    <img src="/img/tech/kotlin.svg" alt="tech dark" height="60">
-                    <img src="/img/tech/jetpack_compose.svg" alt="tech dark" height="60">
+                    <img src="/img/tech/kotlin.svg" alt="tech light" height="60">
+                    <img src="/img/tech/jetpack_compose.svg" alt="tech light" height="60">
                 </div>
                 <div class="col action-btns-container py-4 mt-auto">
-                    <button class="portfolio-button action-button_light" data-bs-toggle="modal"
+                    <button class="portfolio-button action-button_dark" data-bs-toggle="modal"
                         data-bs-target="#gymApp">Video Demo</button>
-                    <a href="https://github.com/redmejia/gym-mobile" class="portfolio-button action-button_light">
+                    <a href="https://github.com/redmejia/gym-mobile" class="portfolio-button action-button_dark">
                         Source Code
                     </a>
-
                 </div>
             </div>
-
+            <div class="d-block d-md-none col-sm py-2"></div>
         </div>
+        <div class="d-block d-md-none col-sm py-2"></div>
         <div class="d-md-flex flex-md-equal w-100 my-md-3">
             <!-- Modal Pix App -->
             <div class="modal fade" id="pixApp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -172,7 +228,7 @@
                     </a>
                 </div>
             </div>
-
+            <div class="d-block d-md-none col-sm py-2"></div>
             <!-- Modal Pic App -->
             <div class="modal fade" id="picApp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-xl">
@@ -182,8 +238,9 @@
                                 aria-label="Close"></button>
                             <div class="col">
                                 <iframe class="video-container"
-                                    src="https://drive.google.com/file/d/1gA60xtMNy_9Wpd4ymUuI_YkgzJxSoroN/preview"
-                                    allow="autoplay" style="border:none;"></iframe>
+                                    src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7257167833980129283?collapsed=1"
+                                    height="551" width="504" frameborder="0" allowfullscreen=""
+                                    title="Embedded post"></iframe>
                             </div>
                         </div>
                     </div>
@@ -211,9 +268,9 @@
                     <a href="https://github.com/redmejia/pic" class="portfolio-button action-button_light">
                         Source Code
                     </a>
-
                 </div>
             </div>
+            <div class="d-block d-md-none col-sm py-2"></div>
         </div>
 
         <div class="d-md-flex flex-md-equal w-100 my-md-3">
@@ -262,6 +319,7 @@
                     </a>
                 </div>
             </div>
+            <div class="d-block d-md-none col-sm py-2"></div>
 
             <!--Modal Hi App -->
             <div class="modal fade" id="hiApp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -302,6 +360,7 @@
                     </a>
                 </div>
             </div>
+            <div class="d-block d-md-none col-sm py-2"></div>
         </div>
     </main>
 
@@ -311,6 +370,8 @@
                 <div class="col-6 col-md">
                     <h5 style="color: #F8F9FA;">Projects</h5>
                     <ul class="list-unstyled text-small">
+                        <li><a class="link-secondary text-decoration-none" href="https://github.com/redmejia/bos">Bos
+                            </a></li>
                         <li><a class="link-secondary text-decoration-none"
                                 href="https://github.com/redmejia/gym-mobile">Gym Mobile
                             </a></li>
@@ -324,10 +385,9 @@
                                 href="https://github.com/redmejia/art-app">Art App</a></li>
 
                 </div>
-
                 <div class="col-6 col-md"></div>
                 <div class="col-6 col-md">
-                    <h5 style="color: #F8F9FA;">Contact me</h5>
+                    <h5 style="color: #F8F9FA;">Contact Me</h5>
                     <ul class="list-unstyled text-small">
                         <li>
                             <a class="link-secondary text-decoration-none"
