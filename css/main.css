@@ -1,0 +1,79 @@
+.header-section {
+    height: 65vh;
+}
+
+.tech-icon {
+    fill: #fff;
+}
+
+
+
+/* use for dark background color */
+img[alt="tech light"] {
+    margin: 2px;
+    filter: opacity(100%) grayscale(600%) brightness(200%);
+}
+
+/* use for light background color */
+img[alt="tech dark"] {
+    filter: grayscale(200%) opacity(500%);
+}
+
+.action-btns-container {
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+  
+.portfolio-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #F8F9FA;
+    border-radius: 0.3rem;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.portfolio-button:hover {
+    background-color: #F8F9FA;
+    color: #212529;
+    border-color: #F8F9FA;
+}
+
+/* for ligt bg contrast */
+.action-button_light {
+    background-color: #212529;
+    color: #F8F9FA;
+    border-color: #212529;
+}
+
+.action-button_light:hover {
+    background-color: #F8F9FA;
+    color: #212529;
+    border-color: #212529;
+}
+
+/* for dark bg contrast */
+.action-button_dark {
+    background-color: #F8F9FA;
+    color:  #212529;
+    border-color: #F8F9FA;
+}
+
+.action-button_dark:hover {
+    background-color: #212529;
+    color: #F8F9FA;
+    border-color: #F8F9FA;
+}
+
+.video-container {
+    height: 90vh;
+    width: 100%;
+}
