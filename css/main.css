@@ -28,6 +28,8 @@ img[alt="tech dark"] {
     justify-content: center;
 }
 
+
+  
 .portfolio-button {
     display: inline-block;
     padding: 0.75rem 1.5rem;
@@ -49,7 +51,7 @@ img[alt="tech dark"] {
     border-color: #F8F9FA;
 }
 
-/* live demo video for ligt bg*/
+/* for ligt bg contrast */
 .action-button_light {
     background-color: #212529;
     color: #F8F9FA;
@@ -62,7 +64,7 @@ img[alt="tech dark"] {
     border-color: #212529;
 }
 
-/* live demo video for dark bg*/
+/* for dark bg contrast */
 .action-button_dark {
     background-color: #F8F9FA;
     color:  #212529;
