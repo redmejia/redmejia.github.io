@@ -76,3 +76,8 @@ img[alt="tech dark"] {
     color: #F8F9FA;
     border-color: #F8F9FA;
 }
+
+.video-container {
+    height: 90vh;
+    width: 100%;
+}
