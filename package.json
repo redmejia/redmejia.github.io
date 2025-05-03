@@ -4,7 +4,6 @@
   "description": "Hi, I am Reynaldo and this is my portfolio. I would like to share my projects with you.",
   "main": "index.js",
   "scripts": {
-    "compile": "node-sass sass/main.scss css/style.css -w",
     "dev": "http-server -p 3000 -o"
   },
   "keywords": [],
