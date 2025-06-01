@@ -75,72 +75,44 @@
                 </div>
             </div>
         </div>
-
         <!-- Project Section -->
-        <div class="d-md-flex flex-md-equal w-100 my-md-3" id="my-projects">
-            <!-- Modal Bos pp -->
-            <div class="modal fade" id="bosApp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <!-- modal-xl class is to big for Embedded video -->
-                <div class="modal-dialog modal-xl">
-                    <div class="modal-content card-modal-style">
-                        <div class="modal-body p-0">
-                            <button type="button" class="btn-close button button--close" data-bs-dismiss="modal"
-                                aria-label="Close"></button>
-                            <div class="col">
-                                <iframe class="video-container"
-                                    src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7331551047083012096?collapsed=1"
-                                    height="517" width="504" frameborder="0" allowfullscreen=""
-                                    title="Embedded BOS project post"></iframe>
-                                <!-- old video
-                                    <iframe class="video-container"
-                                    src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7318720756886974464?collapsed=1"
-                                    frameborder="0" allowfullscreen="" title="Embedded post"></iframe> -->
-                            </div>
-                        </div>
+        <div class="container" id="my-projects">
+            <div class="d-md-flex flex-md-equal w-100 my-md-3">
+                <!-- modal here -->
+                <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden d-flex flex-column h-100"
+                    style="border-radius: 21px 21px 21px 21px;">
+                    <div class="my-3">
+                        <h2 class="display-5">Verba AI Chat</h2>
+                        <p class="text-start lead">
+                            Verba is a mobile chat application that leverages Google's Gemini AI. The application is
+                            built using
+                            Kotlin and the Jetpack Compose UI toolkit, and follows the Model-View-ViewModel (MVVM)
+                            architectural
+                            pattern. I use Hilt and Dagger for dependency injection, and Retrofit for handling HTTP
+                            communication.
+                            <br></br>
+                            The backend is written in Go and integrates the Gemini AI Text Generation API, following
+                            Google's
+                            official AI documentation. JWT (JSON Web Tokens) is implemented for secure authentication
+                            and
+                            authorization of all requests.
+                        </p>
                     </div>
-                </div>
-            </div>
-            <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden d-flex flex-column h-100"
-                style="border-radius: 21px 21px 21px 21px;">
-                <div class="my-3">
-                    <h2 class="display-5">Bos</h2>
-                    <p class="text-start lead">Bos is a mobile-based Point of Sale (POS) system designed for small businesses.
-                        <br></br>
-                        The mobile application is built using the MVVM architecture and leverages modern Android
-                        components
-                        for a seamless user experience.
-                        <br></br>
-                        Barcode scanning is implemented using Google's ML Kit, allowing fast and reliable barcode
-                        detection.
-                        CameraX is integrated for real-time image analysis and barcode scanning.
-                        The app includes runtime camera permission handling to ensure secure access.
-                        Retrofit is used to handle all HTTP requests efficiently, connecting the app to the backend
-                        server.
-                        The app includes support for Spanish locale, making it accessible to Spanish-speaking users.
-                        <br></br>
-                        The backend server is developed in Go using the standard library to keep things lightweight
-                        and
-                        efficient.
-                        <br></br>
-                        It exposes endpoints that return detailed information about barcodes scanned from the mobile
-                        app.
-                        JWT (JSON Web Tokens) are used for secure authentication and authorization of requests.
-                    </p>
-                </div>
-                <div class="col tech-icon-container py-2">
-                    <h4 class="py-2">Technologies used</h4>
-                    <img src="/img/tech/kotlin.svg" alt="tech dark" height="60">
-                    <img src="/img/tech/jetpack_compose.svg" alt="tech dark" height="60">
-                    <img src="/img/tech/go.svg" alt="tech dark" height="60">
-                </div>
-                <div class="col action-btns-container py-4 mt-auto">
-                    <button class="portfolio-button action-button_light" data-bs-toggle="modal"
-                        data-bs-target="#bosApp">Video Demo</button>
-                    <a href="https://github.com/redmejia/bos" class="portfolio-button action-button_light">
-                        Source Code
-                    </a>
-                </div>
-                <!--
+                    <div class="col tech-icon-container py-2">
+                        <h4 class="py-2">Technologies used</h4>
+                        <img src="/img/tech/kotlin.svg" alt="tech light" height="60">
+                        <img src="/img/tech/jetpack_compose.svg" alt="tech light" height="60">
+                        <img src="/img/tech/go.svg" alt="tech light" height="60">
+                    </div>
+                    <div class="col action-btns-container py-4 mt-auto">
+                        <button class="portfolio-button action-button_dark" data-bs-toggle="modal"
+                            data-bs-target="#">Video
+                            Demo</button>
+                        <a href="" class="portfolio-button action-button_dark">
+                            Source Code
+                        </a>
+                    </div>
+                    <!--
                     Work in progress, display project work process
                  <div class="col">
                     <div class="alert alert-danger fs-4" role="alert">
@@ -160,232 +132,326 @@
                         </ul>
                     </div>
                 </div> -->
+                </div>
             </div>
             <div class="d-block d-md-none col-sm py-2"></div>
-
-            <!-- Modal Gym Mobile -->
-            <div class="modal fade" id="gymApp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content card-modal-style">
-                        <div class="modal-body p-0">
-                            <button type="button" class="btn-close button button--close" data-bs-dismiss="modal"
-                                aria-label="Close"></button>
-                            <div class="col">
-
-                                <iframe class="video-container"
-                                    src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7309329533000720384?collapsed=1"
-                                    frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+            <div class="d-md-flex flex-md-equal w-100 my-md-3">
+                <!-- Modal Bos pp -->
+                <div class="modal fade" id="bosApp" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <!-- modal-xl class is to big for Embedded video -->
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content card-modal-style">
+                            <div class="modal-body p-0">
+                                <button type="button" class="btn-close button button--close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                                <div class="col">
+                                    <iframe class="video-container"
+                                        src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7331551047083012096?collapsed=1"
+                                        height="517" width="504" frameborder="0" allowfullscreen=""
+                                        title="Embedded BOS project post"></iframe>
+                                    <!-- old video
+                                    <iframe class="video-container"
+                                    src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7318720756886974464?collapsed=1"
+                                    frameborder="0" allowfullscreen="" title="Embedded post"></iframe> -->
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden d-flex flex-column h-100"
-                style="border-radius: 21px 21px 21px 21px;">
-                <div class="my-3">
-                    <h2 class="display-5">Gym Mobile</h2>
-                    <p class="text-start lead">This Android project involves a mobile application designed to help
-                        users
-                        perform workout routines at the gym. The application offers an intuitive interface with
-                        predefined routines and selection buttons to start each exercise. The primary goal of this
-                        project was to practice and implement the following Android components:
-                        <strong> Services:</strong> To manage background tasks related to the time execution of
-                        exercises.
-                        <strong>Broadcasts:</strong> To communicate important events within the application or with
-                        other system
-                        components.
-                    </p>
+                <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden d-flex flex-column h-100"
+                    style="border-radius: 21px 21px 21px 21px;">
+                    <div class="my-3">
+                        <h2 class="display-5">Bos</h2>
+                        <p class="text-start lead">Bos is a mobile-based Point of Sale (POS) system designed for small
+                            businesses.
+                            <br></br>
+                            The mobile application is built using the MVVM architecture and leverages modern Android
+                            components
+                            for a seamless user experience.
+                            <br></br>
+                            Barcode scanning is implemented using Google's ML Kit, allowing fast and reliable barcode
+                            detection.
+                            CameraX is integrated for real-time image analysis and barcode scanning.
+                            The app includes runtime camera permission handling to ensure secure access.
+                            Retrofit is used to handle all HTTP requests efficiently, connecting the app to the backend
+                            server.
+                            The app includes support for Spanish locale, making it accessible to Spanish-speaking users.
+                            <br></br>
+                            The backend server is developed in Go using the standard library to keep things lightweight
+                            and
+                            efficient.
+                            <br></br>
+                            It exposes endpoints that return detailed information about barcodes scanned from the mobile
+                            app.
+                            JWT (JSON Web Tokens) are used for secure authentication and authorization of requests.
+                        </p>
+                    </div>
+                    <div class="col tech-icon-container py-2">
+                        <h4 class="py-2">Technologies used</h4>
+                        <img src="/img/tech/kotlin.svg" alt="tech dark" height="60">
+                        <img src="/img/tech/jetpack_compose.svg" alt="tech dark" height="60">
+                        <img src="/img/tech/go.svg" alt="tech dark" height="60">
+                    </div>
+                    <div class="col action-btns-container py-4 mt-auto">
+                        <button class="portfolio-button action-button_light" data-bs-toggle="modal"
+                            data-bs-target="#bosApp">Video Demo</button>
+                        <a href="https://github.com/redmejia/bos" class="portfolio-button action-button_light">
+                            Source Code
+                        </a>
+                    </div>
+                    <!--
+                    Work in progress, display project work process
+                 <div class="col">
+                    <div class="alert alert-danger fs-4" role="alert">
+                        Work in progress
+                    </div>
                 </div>
-                <div class="col tech-icon-container py-2">
-                    <h4 class="py-2">Technologies used</h4>
-                    <img src="/img/tech/kotlin.svg" alt="tech light" height="60">
-                    <img src="/img/tech/jetpack_compose.svg" alt="tech light" height="60">
+                <div class="row">
+                    <div class="col col-md">
+                        <ul class="text-small">
+                            <li class="text-start fw-bold text-decoration-line-through">Wallet implementation</li>
+                            <li class="text-start fw-bold text-decoration-line-through">Persist data using ROOM</li>
+                            <li class="text-start fw-bold text-decoration-line-through">Order history</li>
+                            <li class="text-start fw-bold text-decoration-line-through">Delete and reset transactions
+                                and orders</li>
+                            <li class="text-start fw-bold text-decoration-line-through">Wallet Widget</li>
+                            <li class="text-start fw-bold">Generate Report</li>
+                        </ul>
+                    </div>
+                </div> -->
                 </div>
-                <div class="col action-btns-container py-4 mt-auto">
-                    <button class="portfolio-button action-button_dark" data-bs-toggle="modal"
-                        data-bs-target="#gymApp">Video Demo</button>
-                    <a href="https://github.com/redmejia/gym-mobile" class="portfolio-button action-button_dark">
-                        Source Code
-                    </a>
+                <div class="d-block d-md-none col-sm py-2"></div>
+
+                <!-- Modal Gym Mobile -->
+                <div class="modal fade" id="gymApp" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content card-modal-style">
+                            <div class="modal-body p-0">
+                                <button type="button" class="btn-close button button--close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                                <div class="col">
+
+                                    <iframe class="video-container"
+                                        src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7309329533000720384?collapsed=1"
+                                        frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden d-flex flex-column h-100"
+                    style="border-radius: 21px 21px 21px 21px;">
+                    <div class="my-3">
+                        <h2 class="display-5">Gym Mobile</h2>
+                        <p class="text-start lead">This Android project involves a mobile application designed to help
+                            users
+                            perform workout routines at the gym. The application offers an intuitive interface with
+                            predefined routines and selection buttons to start each exercise. The primary goal of this
+                            project was to practice and implement the following Android components:
+                            <strong> Services:</strong> To manage background tasks related to the time execution of
+                            exercises.
+                            <strong>Broadcasts:</strong> To communicate important events within the application or with
+                            other system
+                            components.
+                        </p>
+                    </div>
+                    <div class="col tech-icon-container py-2">
+                        <h4 class="py-2">Technologies used</h4>
+                        <img src="/img/tech/kotlin.svg" alt="tech light" height="60">
+                        <img src="/img/tech/jetpack_compose.svg" alt="tech light" height="60">
+                    </div>
+                    <div class="col action-btns-container py-4 mt-auto">
+                        <button class="portfolio-button action-button_dark" data-bs-toggle="modal"
+                            data-bs-target="#gymApp">Video Demo</button>
+                        <a href="https://github.com/redmejia/gym-mobile" class="portfolio-button action-button_dark">
+                            Source Code
+                        </a>
+                    </div>
+                </div>
+                <div class="d-block d-md-none col-sm py-2"></div>
             </div>
             <div class="d-block d-md-none col-sm py-2"></div>
+            <div class="d-md-flex flex-md-equal w-100 my-md-3">
+                <!-- Modal Pix App -->
+                <div class="modal fade" id="pixApp" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <!-- modal-xl class is to big for Embedded video -->
+                    <div class="modal-dialog">
+                        <div class="modal-content card-modal-style">
+                            <div class="modal-body p-0">
+                                <button type="button" class="btn-close button button--close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                                <div class="col">
+                                    <iframe class="video-container"
+                                        src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7277553313552781312?collapsed=1"
+                                        frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden d-flex flex-column h-100"
+                    style="border-radius: 21px 21px 21px 21px;">
+                    <div class="my-3">
+                        <h2 class="display-5">Pix</h2>
+                        <p class="text-start lead">Pix v2 Upgraded version of Pic App integrating Google’s ML Kit SDK
+                            for
+                            text
+                            recognition, allowing users to capture photos, extract text, and save both effortlessly.
+                        </p>
+                    </div>
+                    <div class="col tech-icon-container py-2">
+                        <h4 class="py-2">Technologies used</h4>
+                        <img src="/img/tech/kotlin.svg" alt="tech light" height="60">
+                        <img src="/img/tech/jetpack_compose.svg" alt="tech light" height="60">
+                    </div>
+                    <div class="col action-btns-container py-4 mt-auto">
+                        <button class="portfolio-button action-button_dark" data-bs-toggle="modal"
+                            data-bs-target="#pixApp">Video Demo</button>
+                        <a href="https://github.com/redmejia/pix" class="portfolio-button action-button_dark">
+                            Source Code
+                        </a>
+                    </div>
+                </div>
+                <div class="d-block d-md-none col-sm py-2"></div>
+                <!-- Modal Pic App -->
+                <div class="modal fade" id="picApp" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content card-modal-style">
+                            <div class="modal-body p-0">
+                                <button type="button" class="btn-close button button--close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                                <div class="col">
+                                    <iframe class="video-container"
+                                        src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7257167833980129283?collapsed=1"
+                                        height="551" width="504" frameborder="0" allowfullscreen=""
+                                        title="Embedded post"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden d-flex flex-column h-100"
+                    style="border-radius: 21px 21px 21px 21px;">
+                    <div class="my-3">
+                        <h2 class="display-5">Pic</h2>
+                        <p class="text-start lead">Pic is an Android app designed to capture and store images. I built
+                            it
+                            using Jetpack Compose for a declarative and modern UI, leveraging CameraX for efficient
+                            camera handling. Implementing the required permissions was crucial for a smooth user
+                            experience.
+                        </p>
+                    </div>
+                    <div class="col tech-icon-container py-2">
+                        <h4 class="py-2">Technologies used</h4>
+                        <img src="/img/tech/kotlin.svg" alt="tech dark" height="60">
+                        <img src="/img/tech/jetpack_compose.svg" alt="tech dark" height="60">
+                    </div>
+                    <div class="col action-btns-container py-4 mt-auto">
+                        <button class="portfolio-button action-button_light" data-bs-toggle="modal"
+                            data-bs-target="#picApp">Video Demo</button>
+                        <a href="https://github.com/redmejia/pic" class="portfolio-button action-button_light">
+                            Source Code
+                        </a>
+                    </div>
+                </div>
+                <div class="d-block d-md-none col-sm py-2"></div>
+            </div>
+            <div class="d-md-flex flex-md-equal w-100 my-md-3">
+                <!--Modal Art App -->
+                <div class="modal fade" id="artApp" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content card-modal-style">
+                            <div class="modal-body p-0">
+                                <button type="button" class="btn-close button button--close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                                <div class="col">
+                                    <iframe class="video-container"
+                                        src="https://drive.google.com/file/d/1aHMSDldTqQRM_sOxS856eDhJVm1wD34c/preview"
+                                        allow="autoplay"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden d-flex flex-column h-100"
+                    style="border-radius: 21px 21px 21px 21px;">
+                    <div class="my-3">
+                        <h2 class="display-5">Art App</h2>
+                        <p class="text-start lead">Art App is an application that shows pieces of art. The app has two
+                            navigation buttons that navigate to Home and Auction Room. On top of the home there is
+                            FlatList components that shows all art types. Then the Incoming Events component that shows
+                            all event for the months. Artist component which is a ScrollView displaying all artist on
+                            horizontal. Next, New Art component that show only five new pieces of art. For the auction
+                            room screen I am displaying all pieces of art on a FlatList component each piece of art
+                            navigate to Preview screen that contain more information of the picture.</p>
+                    </div>
+                    <div class="col tech-icon-container py-2">
+                        <h4 class="py-2">Technologies used</h4>
+                        <img src="/img/tech/TS.svg" alt="tech dark" height="60">
+                        <img src="/img/tech/react.svg" alt="tech dark" height="60">
+                        <img src="/img/tech/go.svg" alt="tech dark" height="60">
+                        <img src="/img/tech/postgresql.svg" alt="tech dark" height="60">
+
+                    </div>
+                    <div class="col action-btns-container py-4 mt-auto">
+                        <button class="portfolio-button action-button_light" data-bs-toggle="modal"
+                            data-bs-target="#artApp">Video Demo</button>
+                        <a href="https://github.com/redmejia/art-app" class="portfolio-button action-button_light">
+                            Source Code
+                        </a>
+                    </div>
+                </div>
+                <div class="d-block d-md-none col-sm py-2"></div>
+
+                <!--Modal Hi App -->
+                <div class="modal fade" id="hiApp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content card-modal-style">
+                            <div class="modal-body p-0">
+                                <button type="button" class="btn-close button button--close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                                <div class="col">
+                                    <iframe class="video-container"
+                                        src="https://drive.google.com/file/d/1G5rkvK-HcNyq927vQFzWlH9sD4lU_UIw/preview"
+                                        allow="autoplay"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden d-flex flex-column h-100"
+                    style="border-radius: 21px 21px 21px 21px;">
+                    <div class="my-3">
+                        <h2 class="display-5">Hi Chat App</h2>
+                        <p class="text-start lead">Hi App is a chat that I built using React Native. The idea of this
+                            project
+                            was to learn Typescript, Reusable Components, Context Api and React Native Animated. This
+                            app is front-end only and has no back-end logic.</p>
+                    </div>
+                    <div class="col tech-icon-container py-2">
+                        <h4 class="py-2">Technologies used</h4>
+                        <!-- light does not contrast -->
+                        <img src="/img/tech/TS.svg" alt="tech dark" height="60">
+                        <img src="/img/tech/react.svg" alt="tech light" height="60">
+                    </div>
+                    <div class="col action-btns-container py-4 mt-auto">
+                        <button class="portfolio-button action-button_dark" data-bs-toggle="modal"
+                            data-bs-target="#hiApp">Video Demo</button>
+                        <a href="https://github.com/redmejia/hi-app" class="portfolio-button action-button_dark">
+                            Source Code
+                        </a>
+                    </div>
+                </div>
+                <div class="d-block d-md-none col-sm py-2"></div>
+            </div>
         </div>
-        <div class="d-block d-md-none col-sm py-2"></div>
-        <div class="d-md-flex flex-md-equal w-100 my-md-3">
-            <!-- Modal Pix App -->
-            <div class="modal fade" id="pixApp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <!-- modal-xl class is to big for Embedded video -->
-                <div class="modal-dialog">
-                    <div class="modal-content card-modal-style">
-                        <div class="modal-body p-0">
-                            <button type="button" class="btn-close button button--close" data-bs-dismiss="modal"
-                                aria-label="Close"></button>
-                            <div class="col">
-                                <iframe class="video-container"
-                                    src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7277553313552781312?collapsed=1"
-                                    frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden d-flex flex-column h-100"
-                style="border-radius: 21px 21px 21px 21px;">
-                <div class="my-3">
-                    <h2 class="display-5">Pix</h2>
-                    <p class="text-start lead">Pix v2 Upgraded version of Pic App integrating Google’s ML Kit SDK for
-                        text
-                        recognition, allowing users to capture photos, extract text, and save both effortlessly.
-                    </p>
-                </div>
-                <div class="col tech-icon-container py-2">
-                    <h4 class="py-2">Technologies used</h4>
-                    <img src="/img/tech/kotlin.svg" alt="tech light" height="60">
-                    <img src="/img/tech/jetpack_compose.svg" alt="tech light" height="60">
-                </div>
-                <div class="col action-btns-container py-4 mt-auto">
-                    <button class="portfolio-button action-button_dark" data-bs-toggle="modal"
-                        data-bs-target="#pixApp">Video Demo</button>
-                    <a href="https://github.com/redmejia/pix" class="portfolio-button action-button_dark">
-                        Source Code
-                    </a>
-                </div>
-            </div>
-            <div class="d-block d-md-none col-sm py-2"></div>
-            <!-- Modal Pic App -->
-            <div class="modal fade" id="picApp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-xl">
-                    <div class="modal-content card-modal-style">
-                        <div class="modal-body p-0">
-                            <button type="button" class="btn-close button button--close" data-bs-dismiss="modal"
-                                aria-label="Close"></button>
-                            <div class="col">
-                                <iframe class="video-container"
-                                    src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7257167833980129283?collapsed=1"
-                                    height="551" width="504" frameborder="0" allowfullscreen=""
-                                    title="Embedded post"></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden d-flex flex-column h-100"
-                style="border-radius: 21px 21px 21px 21px;">
-                <div class="my-3">
-                    <h2 class="display-5">Pic</h2>
-                    <p class="text-start lead">Pic is an Android app designed to capture and store images. I built
-                        it
-                        using Jetpack Compose for a declarative and modern UI, leveraging CameraX for efficient
-                        camera handling. Implementing the required permissions was crucial for a smooth user
-                        experience.
-                    </p>
-                </div>
-                <div class="col tech-icon-container py-2">
-                    <h4 class="py-2">Technologies used</h4>
-                    <img src="/img/tech/kotlin.svg" alt="tech dark" height="60">
-                    <img src="/img/tech/jetpack_compose.svg" alt="tech dark" height="60">
-                </div>
-                <div class="col action-btns-container py-4 mt-auto">
-                    <button class="portfolio-button action-button_light" data-bs-toggle="modal"
-                        data-bs-target="#picApp">Video Demo</button>
-                    <a href="https://github.com/redmejia/pic" class="portfolio-button action-button_light">
-                        Source Code
-                    </a>
-                </div>
-            </div>
-            <div class="d-block d-md-none col-sm py-2"></div>
-        </div>
 
-        <div class="d-md-flex flex-md-equal w-100 my-md-3">
-            <!--Modal Art App -->
-            <div class="modal fade" id="artApp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-xl">
-                    <div class="modal-content card-modal-style">
-                        <div class="modal-body p-0">
-                            <button type="button" class="btn-close button button--close" data-bs-dismiss="modal"
-                                aria-label="Close"></button>
-                            <div class="col">
-                                <iframe class="video-container"
-                                    src="https://drive.google.com/file/d/1aHMSDldTqQRM_sOxS856eDhJVm1wD34c/preview"
-                                    allow="autoplay"></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden d-flex flex-column h-100"
-                style="border-radius: 21px 21px 21px 21px;">
-                <div class="my-3">
-                    <h2 class="display-5">Art App</h2>
-                    <p class="text-start lead">Art App is an application that shows pieces of art. The app has two
-                        navigation buttons that navigate to Home and Auction Room. On top of the home there is
-                        FlatList components that shows all art types. Then the Incoming Events component that shows
-                        all event for the months. Artist component which is a ScrollView displaying all artist on
-                        horizontal. Next, New Art component that show only five new pieces of art. For the auction
-                        room screen I am displaying all pieces of art on a FlatList component each piece of art
-                        navigate to Preview screen that contain more information of the picture.</p>
-                </div>
-                <div class="col tech-icon-container py-2">
-                    <h4 class="py-2">Technologies used</h4>
-                    <img src="/img/tech/TS.svg" alt="tech dark" height="60">
-                    <img src="/img/tech/react.svg" alt="tech dark" height="60">
-                    <img src="/img/tech/go.svg" alt="tech dark" height="60">
-                    <img src="/img/tech/postgresql.svg" alt="tech dark" height="60">
-
-                </div>
-                <div class="col action-btns-container py-4 mt-auto">
-                    <button class="portfolio-button action-button_light" data-bs-toggle="modal"
-                        data-bs-target="#artApp">Video Demo</button>
-                    <a href="https://github.com/redmejia/art-app" class="portfolio-button action-button_light">
-                        Source Code
-                    </a>
-                </div>
-            </div>
-            <div class="d-block d-md-none col-sm py-2"></div>
-
-            <!--Modal Hi App -->
-            <div class="modal fade" id="hiApp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-xl">
-                    <div class="modal-content card-modal-style">
-                        <div class="modal-body p-0">
-                            <button type="button" class="btn-close button button--close" data-bs-dismiss="modal"
-                                aria-label="Close"></button>
-                            <div class="col">
-                                <iframe class="video-container"
-                                    src="https://drive.google.com/file/d/1G5rkvK-HcNyq927vQFzWlH9sD4lU_UIw/preview"
-                                    allow="autoplay"></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden d-flex flex-column h-100"
-                style="border-radius: 21px 21px 21px 21px;">
-                <div class="my-3">
-                    <h2 class="display-5">Hi Chat App</h2>
-                    <p class="text-start lead">Hi App is a chat that I built using React Native. The idea of this
-                        project
-                        was to learn Typescript, Reusable Components, Context Api and React Native Animated. This
-                        app is front-end only and has no back-end logic.</p>
-                </div>
-                <div class="col tech-icon-container py-2">
-                    <h4 class="py-2">Technologies used</h4>
-                    <!-- light does not contrast -->
-                    <img src="/img/tech/TS.svg" alt="tech dark" height="60">
-                    <img src="/img/tech/react.svg" alt="tech light" height="60">
-                </div>
-                <div class="col action-btns-container py-4 mt-auto">
-                    <button class="portfolio-button action-button_dark" data-bs-toggle="modal"
-                        data-bs-target="#hiApp">Video Demo</button>
-                    <a href="https://github.com/redmejia/hi-app" class="portfolio-button action-button_dark">
-                        Source Code
-                    </a>
-                </div>
-            </div>
-            <div class="d-block d-md-none col-sm py-2"></div>
-        </div>
     </main>
 
     <footer class="bg-dark py-5" id="contact">
